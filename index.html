@@ -1,0 +1,1650 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>捷克街头钞能力_城市影像_品牌视频门户官网</title>
+<meta name="description" content="捷克街头钞能力官方网站——深耕城市街头影像与在地文化的视频内容平台，汇集原创纪录、创作者社区与精品内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f6f8f'/%3E%3Ccircle cx='32' cy='32' r='15' fill='none' stroke='%23f2c14e' stroke-width='4'/%3E%3Cpath d='M28 24l14 8-14 8z' fill='%23f2c14e'/%3E%3C/svg%3E">
+<style>
+/* ============ 命名空间：cksn (Czech Street Coin Power) ============ */
+:root{
+  --cksn-ink:#12222b;
+  --cksn-ink-soft:#3d5560;
+  --cksn-teal:#1f6f8f;
+  --cksn-teal-deep:#134a61;
+  --cksn-teal-pale:#e3f0f4;
+  --cksn-gold:#d9a53a;
+  --cksn-gold-soft:#f3dfb0;
+  --cksn-paper:#f7f5f0;
+  --cksn-card:#ffffff;
+  --cksn-line:#d8dfe2;
+  --cksn-shadow:0 10px 30px rgba(19,74,97,.12);
+  --cksn-radius:16px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;scroll-padding-top:132px;}
+body{
+  margin:0;
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  color:var(--cksn-ink);
+  background:var(--cksn-paper);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+button{font-family:inherit;cursor:pointer;}
+h1,h2,h3,h4{margin:0;line-height:1.3;}
+p{margin:0 0 14px;}
+.cksn-container{width:min(1180px,92vw);margin:0 auto;}
+.cksn-sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}
+
+/* ============ 吸顶层：公告条 + 页头 ============ */
+.cksn-sticky-shell{
+  position:sticky;top:0;z-index:80;
+  box-shadow:0 2px 14px rgba(19,74,97,.08);
+}
+.cksn-announce{
+  background:linear-gradient(90deg,var(--cksn-teal-deep),var(--cksn-teal) 55%,#2a8aa8);
+  color:#f4fbfd;
+  font-size:13.5px;
+  letter-spacing:.2px;
+}
+.cksn-announce-inner{
+  display:flex;align-items:center;gap:12px;
+  width:min(1180px,92vw);margin:0 auto;
+  padding:8px 0;
+  overflow:hidden;
+}
+.cksn-announce-tag{
+  flex:none;
+  background:var(--cksn-gold);
+  color:#2a1c00;
+  font-weight:700;
+  font-size:12px;
+  padding:2px 9px;
+  border-radius:999px;
+  letter-spacing:1px;
+}
+.cksn-announce-text{
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  animation:cksn-marquee 26s linear infinite;
+  padding-right:20px;
+}
+@keyframes cksn-marquee{
+  0%{transform:translateX(0);}
+  100%{transform:translateX(-40%);}
+}
+.cksn-announce-link{
+  flex:none;margin-left:auto;
+  border-bottom:1px dashed rgba(244,251,253,.7);
+  font-size:12.5px;
+}
+.cksn-header{
+  background:rgba(255,255,255,.96);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--cksn-line);
+}
+.cksn-header-inner{
+  display:flex;align-items:center;gap:20px;
+  width:min(1180px,92vw);margin:0 auto;
+  padding:12px 0;
+}
+.cksn-logo{display:flex;align-items:center;gap:10px;flex:none;}
+.cksn-logo-mark{
+  width:42px;height:42px;border-radius:12px;
+  background:linear-gradient(145deg,var(--cksn-teal),var(--cksn-teal-deep));
+  display:grid;place-items:center;
+  box-shadow:inset 0 0 0 2px rgba(217,165,58,.55);
+}
+.cksn-logo-mark svg{width:24px;height:24px;}
+.cksn-logo-text b{display:block;font-size:17px;letter-spacing:.5px;}
+.cksn-logo-text span{display:block;font-size:11px;color:var(--cksn-ink-soft);letter-spacing:2.5px;}
+.cksn-nav{
+  display:flex;align-items:center;gap:4px;
+  margin-left:8px;flex:1;
+}
+.cksn-nav a{
+  font-size:14.5px;color:var(--cksn-ink-soft);
+  padding:7px 11px;border-radius:9px;
+  transition:.2s;
+  white-space:nowrap;
+}
+.cksn-nav a:hover{background:var(--cksn-teal-pale);color:var(--cksn-teal-deep);}
+.cksn-header-tools{display:flex;align-items:center;gap:10px;margin-left:auto;}
+.cksn-search{
+  position:relative;display:flex;align-items:center;
+  background:var(--cksn-paper);
+  border:1px solid var(--cksn-line);
+  border-radius:999px;
+  padding:5px 6px 5px 14px;
+  transition:.2s;
+}
+.cksn-search:focus-within{border-color:var(--cksn-teal);box-shadow:0 0 0 3px rgba(31,111,143,.13);}
+.cksn-search input{
+  border:0;background:transparent;outline:none;
+  font-size:13.5px;width:150px;color:var(--cksn-ink);
+}
+.cksn-search button{
+  border:0;background:var(--cksn-teal);color:#fff;
+  border-radius:999px;font-size:12.5px;
+  padding:5px 13px;transition:.2s;
+}
+.cksn-search button:hover{background:var(--cksn-teal-deep);}
+.cksn-search-hint{
+  position:absolute;top:calc(100% + 8px);left:0;right:0;
+  background:#fff;border:1px solid var(--cksn-line);
+  border-radius:12px;box-shadow:var(--cksn-shadow);
+  padding:10px;font-size:13px;color:var(--cksn-ink-soft);
+  display:none;z-index:90;
+}
+.cksn-search-hint.cksn-show{display:block;}
+.cksn-search-hint strong{color:var(--cksn-teal-deep);}
+.cksn-btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:7px;
+  border-radius:11px;font-size:14px;font-weight:600;
+  padding:11px 20px;border:1px solid transparent;
+  transition:.2s;
+}
+.cksn-btn-primary{background:var(--cksn-teal);color:#fff;box-shadow:0 6px 16px rgba(31,111,143,.28);}
+.cksn-btn-primary:hover{background:var(--cksn-teal-deep);transform:translateY(-1px);}
+.cksn-btn-gold{background:var(--cksn-gold);color:#2a1c00;}
+.cksn-btn-gold:hover{background:#c8932c;transform:translateY(-1px);}
+.cksn-btn-ghost{background:transparent;color:var(--cksn-teal-deep);border-color:var(--cksn-line);}
+.cksn-btn-ghost:hover{border-color:var(--cksn-teal);background:var(--cksn-teal-pale);}
+.cksn-burger{
+  display:none;border:1px solid var(--cksn-line);background:#fff;
+  border-radius:10px;padding:8px 10px;
+}
+.cksn-burger span{display:block;width:20px;height:2px;background:var(--cksn-ink);margin:4px 0;border-radius:2px;transition:.2s;}
+.cksn-nav.cksn-open{
+  display:flex;flex-direction:column;align-items:stretch;
+  position:absolute;left:0;right:0;top:100%;
+  background:#fff;border-bottom:1px solid var(--cksn-line);
+  padding:10px 5vw 16px;box-shadow:var(--cksn-shadow);
+}
+.cksn-nav.cksn-open a{padding:12px 8px;border-bottom:1px dashed var(--cksn-line);border-radius:0;}
+
+/* ============ 首屏 ============ */
+.cksn-hero{
+  position:relative;
+  background:
+    radial-gradient(1000px 420px at 88% -8%,rgba(217,165,58,.28),transparent 62%),
+    radial-gradient(800px 380px at -10% 110%,rgba(31,111,143,.22),transparent 60%),
+    linear-gradient(160deg,#ffffff 0%,#eef6f8 58%,#e3eef2 100%);
+  padding:56px 0 64px;
+  overflow:hidden;
+}
+.cksn-hero::after{
+  content:"";position:absolute;inset:auto -6% -140px -6%;height:240px;
+  background:repeating-linear-gradient(90deg,rgba(31,111,143,.06) 0 2px,transparent 2px 34px);
+  transform:skewY(-3deg);
+  pointer-events:none;
+}
+.cksn-hero-grid{
+  display:grid;grid-template-columns:1.05fr .95fr;gap:46px;align-items:center;
+  position:relative;z-index:2;
+}
+.cksn-hero-badge{
+  display:inline-flex;align-items:center;gap:8px;
+  background:rgba(255,255,255,.85);border:1px solid var(--cksn-line);
+  border-radius:999px;padding:6px 14px;font-size:12.5px;color:var(--cksn-teal-deep);
+  font-weight:600;letter-spacing:.6px;margin-bottom:18px;
+}
+.cksn-hero-badge i{width:8px;height:8px;border-radius:50%;background:var(--cksn-gold);display:block;box-shadow:0 0 0 3px rgba(217,165,58,.28);}
+.cksn-hero h1{
+  font-size:clamp(34px,4.6vw,56px);
+  letter-spacing:1px;
+  color:var(--cksn-teal-deep);
+  margin-bottom:8px;
+}
+.cksn-hero h1 em{
+  font-style:normal;
+  background:linear-gradient(180deg,transparent 64%,var(--cksn-gold-soft) 64%);
+  padding:0 3px;
+}
+.cksn-hero-slogan{
+  font-size:17px;color:var(--cksn-ink-soft);
+  font-weight:600;letter-spacing:2px;margin-bottom:18px;
+}
+.cksn-hero-desc{font-size:15px;color:var(--cksn-ink-soft);max-width:34em;}
+.cksn-hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px;}
+.cksn-hero-stats{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:14px;
+  margin-top:30px;
+}
+.cksn-hero-stat{
+  background:rgba(255,255,255,.8);
+  border:1px solid var(--cksn-line);
+  border-radius:14px;
+  padding:14px 16px;
+}
+.cksn-hero-stat b{display:block;font-size:23px;color:var(--cksn-teal-deep);letter-spacing:.5px;}
+.cksn-hero-stat span{font-size:12.5px;color:var(--cksn-ink-soft);}
+.cksn-hero-visual{position:relative;}
+.cksn-hero-frame{
+  position:relative;border-radius:22px;overflow:hidden;
+  box-shadow:0 24px 60px rgba(19,74,97,.26);
+  border:6px solid #fff;
+  transform:rotate(-1.2deg);
+  transition:.35s;
+}
+.cksn-hero-frame:hover{transform:rotate(0) translateY(-4px);}
+.cksn-hero-frame svg{display:block;width:100%;height:auto;}
+.cksn-hero-float{
+  position:absolute;left:-18px;bottom:26px;
+  background:#fff;border-radius:14px;
+  padding:10px 16px;
+  box-shadow:var(--cksn-shadow);
+  font-size:12.5px;color:var(--cksn-ink-soft);
+  display:flex;align-items:center;gap:9px;
+}
+.cksn-hero-float b{color:var(--cksn-teal-deep);font-size:14px;}
+.cksn-hero-float .cksn-dot{width:9px;height:9px;border-radius:50%;background:#38b48b;animation:cksn-pulse 1.8s infinite;}
+@keyframes cksn-pulse{0%,100%{opacity:1;}50%{opacity:.35;}}
+.cksn-hero-chip{
+  position:absolute;right:-10px;top:-14px;
+  background:var(--cksn-gold);color:#2a1c00;
+  font-size:12.5px;font-weight:700;
+  padding:8px 15px;border-radius:999px;
+  transform:rotate(4deg);
+  box-shadow:0 8px 18px rgba(217,165,58,.4);
+}
+
+/* ============ 通用 section 头 ============ */
+.cksn-section{padding:64px 0;}
+.cksn-section-alt{background:#fff;}
+.cksn-section-head{
+  display:flex;align-items:flex-end;justify-content:space-between;
+  gap:20px;margin-bottom:32px;flex-wrap:wrap;
+}
+.cksn-eyebrow{
+  font-size:12.5px;letter-spacing:3px;color:var(--cksn-gold);
+  font-weight:700;text-transform:uppercase;margin-bottom:8px;
+}
+.cksn-section-head h2{
+  font-size:clamp(23px,2.7vw,32px);
+  color:var(--cksn-teal-deep);letter-spacing:.5px;
+}
+.cksn-section-head p{color:var(--cksn-ink-soft);font-size:14.5px;max-width:40em;margin:8px 0 0;}
+.cksn-link-more{
+  font-size:13.5px;color:var(--cksn-teal);
+  border-bottom:1px dashed currentColor;padding-bottom:2px;white-space:nowrap;
+}
+.cksn-link-more:hover{color:var(--cksn-teal-deep);}
+
+/* ============ 关于/定位解析 ============ */
+.cksn-about-grid{display:grid;grid-template-columns:1fr .82fr;gap:40px;align-items:start;}
+.cksn-about-copy h3{font-size:18px;color:var(--cksn-teal-deep);margin:26px 0 10px;}
+.cksn-about-copy h3:first-child{margin-top:0;}
+.cksn-about-copy p{font-size:14.8px;color:var(--cksn-ink-soft);text-align:justify;}
+.cksn-aside-card{
+  background:#fff;border:1px solid var(--cksn-line);
+  border-radius:var(--cksn-radius);padding:22px;
+  box-shadow:var(--cksn-shadow);
+  margin-bottom:18px;
+}
+.cksn-aside-card h4{font-size:15px;color:var(--cksn-teal-deep);margin-bottom:12px;}
+.cksn-rank-list{list-style:none;margin:0;padding:0;}
+.cksn-rank-list li{
+  display:flex;align-items:center;gap:11px;
+  padding:9px 0;border-bottom:1px dashed var(--cksn-line);
+  font-size:13.5px;color:var(--cksn-ink-soft);
+}
+.cksn-rank-list li:last-child{border-bottom:0;}
+.cksn-rank-no{
+  flex:none;width:22px;height:22px;border-radius:7px;
+  display:grid;place-items:center;
+  background:var(--cksn-teal-pale);color:var(--cksn-teal-deep);
+  font-size:12px;font-weight:700;
+}
+.cksn-rank-list li:nth-child(1) .cksn-rank-no{background:var(--cksn-gold);color:#2a1c00;}
+.cksn-rank-list li b{margin-left:auto;color:var(--cksn-gold);font-size:12.5px;flex:none;}
+.cksn-tag-cloud{display:flex;flex-wrap:wrap;gap:8px;}
+.cksn-tag-cloud span{
+  font-size:12.5px;color:var(--cksn-teal-deep);
+  background:var(--cksn-teal-pale);
+  padding:5px 12px;border-radius:999px;
+  transition:.2s;cursor:pointer;
+}
+.cksn-tag-cloud span:hover{background:var(--cksn-teal);color:#fff;}
+
+/* ============ 焦点内容 ============ */
+.cksn-focus-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:22px;}
+.cksn-focus-main{
+  position:relative;border-radius:20px;overflow:hidden;
+  box-shadow:var(--cksn-shadow);background:#fff;
+}
+.cksn-focus-main .cksn-cover{position:relative;}
+.cksn-focus-main svg{width:100%;height:auto;display:block;}
+.cksn-play-badge{
+  position:absolute;inset:0;display:grid;place-items:center;
+  pointer-events:none;
+}
+.cksn-play-badge i{
+  width:62px;height:62px;border-radius:50%;
+  background:rgba(255,255,255,.88);
+  display:grid;place-items:center;
+  box-shadow:0 8px 26px rgba(0,0,0,.22);
+  transition:.25s;
+}
+.cksn-focus-main:hover .cksn-play-badge i{transform:scale(1.1);background:#fff;}
+.cksn-play-badge i::after{
+  content:"";width:0;height:0;margin-left:5px;
+  border-left:16px solid var(--cksn-teal-deep);
+  border-top:10px solid transparent;
+  border-bottom:10px solid transparent;
+}
+.cksn-focus-meta{padding:18px 20px 20px;}
+.cksn-focus-meta h3{font-size:19px;color:var(--cksn-teal-deep);margin-bottom:8px;}
+.cksn-focus-meta p{font-size:13.8px;color:var(--cksn-ink-soft);margin-bottom:12px;}
+.cksn-mini-list{display:grid;gap:14px;}
+.cksn-mini-card{
+  display:grid;grid-template-columns:120px 1fr;gap:13px;
+  background:#fff;border:1px solid var(--cksn-line);
+  border-radius:14px;padding:12px;
+  transition:.22s;align-items:center;
+}
+.cksn-mini-card:hover{transform:translateX(4px);border-color:var(--cksn-teal);box-shadow:var(--cksn-shadow);}
+.cksn-mini-thumb{border-radius:10px;overflow:hidden;position:relative;}
+.cksn-mini-thumb svg{width:100%;height:auto;display:block;}
+.cksn-mini-thumb::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,transparent 55%,rgba(9,32,44,.4));
+}
+.cksn-mini-card h4{font-size:14px;color:var(--cksn-ink);margin-bottom:5px;line-height:1.45;}
+.cksn-mini-card span{font-size:12px;color:var(--cksn-ink-soft);}
+
+/* ============ 视频流 ============ */
+.cksn-filter-bar{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:26px;}
+.cksn-filter-chip{
+  border:1px solid var(--cksn-line);background:#fff;
+  color:var(--cksn-ink-soft);font-size:13px;
+  padding:7px 15px;border-radius:999px;transition:.2s;
+}
+.cksn-filter-chip:hover{border-color:var(--cksn-teal);color:var(--cksn-teal-deep);}
+.cksn-filter-chip.cksn-active{background:var(--cksn-teal-deep);color:#fff;border-color:var(--cksn-teal-deep);}
+.cksn-video-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:22px;
+}
+.cksn-video-card{
+  background:#fff;border:1px solid var(--cksn-line);
+  border-radius:var(--cksn-radius);overflow:hidden;
+  display:flex;flex-direction:column;
+  transition:.25s;
+}
+.cksn-video-card:hover{transform:translateY(-5px);box-shadow:0 18px 38px rgba(19,74,97,.16);border-color:transparent;}
+.cksn-video-cover{position:relative;}
+.cksn-video-cover svg{width:100%;height:auto;display:block;}
+.cksn-video-cover::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,transparent 52%,rgba(9,32,44,.46));
+  pointer-events:none;
+}
+.cksn-cover-tag{
+  position:absolute;left:10px;top:10px;z-index:3;
+  background:rgba(255,255,255,.9);
+  color:var(--cksn-teal-deep);
+  font-size:11.5px;font-weight:700;
+  padding:4px 10px;border-radius:999px;
+  letter-spacing:.5px;
+}
+.cksn-cover-dur{
+  position:absolute;right:10px;bottom:10px;z-index:3;
+  background:rgba(9,32,44,.72);color:#fff;
+  font-size:11.5px;padding:2px 9px;border-radius:6px;
+}
+.cksn-cover-play{
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:46px;height:46px;border-radius:50%;
+  background:rgba(255,255,255,.82);
+  display:grid;place-items:center;z-index:3;
+  transition:.2s;
+}
+.cksn-video-card:hover .cksn-cover-play{background:#fff;transform:translate(-50%,-50%) scale(1.08);}
+.cksn-cover-play::after{
+  content:"";width:0;height:0;margin-left:3px;
+  border-left:12px solid var(--cksn-teal-deep);
+  border-top:8px solid transparent;
+  border-bottom:8px solid transparent;
+}
+.cksn-video-body{padding:15px 16px 16px;display:flex;flex-direction:column;gap:9px;flex:1;}
+.cksn-video-body h3{font-size:15.5px;color:var(--cksn-ink);line-height:1.5;}
+.cksn-video-body p{font-size:13px;color:var(--cksn-ink-soft);margin:0;flex:1;}
+.cksn-video-meta{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--cksn-ink-soft);}
+.cksn-avatar{
+  width:26px;height:26px;border-radius:50%;flex:none;
+  display:grid;place-items:center;font-size:12px;font-weight:700;color:#fff;
+}
+.cksn-video-actions{
+  display:flex;align-items:center;gap:8px;
+  padding-top:10px;border-top:1px dashed var(--cksn-line);
+}
+.cksn-act-btn{
+  border:1px solid var(--cksn-line);background:#fff;
+  border-radius:999px;font-size:12px;color:var(--cksn-ink-soft);
+  padding:5px 11px;display:inline-flex;align-items:center;gap:5px;
+  transition:.2s;
+}
+.cksn-act-btn:hover{border-color:var(--cksn-teal);color:var(--cksn-teal-deep);}
+.cksn-act-btn.cksn-on{background:var(--cksn-teal);border-color:var(--cksn-teal);color:#fff;}
+.cksn-act-btn.cksn-like-on{background:#e8586d;border-color:#e8586d;color:#fff;}
+.cksn-act-btn.cksn-fav-on{background:var(--cksn-gold);border-color:var(--cksn-gold);color:#2a1c00;}
+
+/* ============ 专题 ============ */
+.cksn-topic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+.cksn-topic-card{
+  border-radius:18px;overflow:hidden;background:#fff;
+  border:1px solid var(--cksn-line);
+  display:flex;flex-direction:column;
+  transition:.25s;
+}
+.cksn-topic-card:hover{transform:translateY(-4px);box-shadow:var(--cksn-shadow);}
+.cksn-topic-card svg{width:100%;height:auto;display:block;}
+.cksn-topic-body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:8px;flex:1;}
+.cksn-topic-state{
+  align-self:flex-start;font-size:11.5px;font-weight:700;
+  padding:3px 10px;border-radius:999px;
+  background:var(--cksn-teal-pale);color:var(--cksn-teal-deep);
+}
+.cksn-topic-state.cksn-done{background:#e5f4ec;color:#1e7a52;}
+.cksn-topic-body h3{font-size:16.5px;color:var(--cksn-teal-deep);}
+.cksn-topic-body p{font-size:13px;color:var(--cksn-ink-soft);margin:0;flex:1;}
+
+/* ============ 创作者 ============ */
+.cksn-creator-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+.cksn-creator-card{
+  background:#fff;border:1px solid var(--cksn-line);
+  border-radius:18px;padding:22px 18px;
+  text-align:center;transition:.25s;
+  display:flex;flex-direction:column;align-items:center;gap:8px;
+}
+.cksn-creator-card:hover{transform:translateY(-5px);box-shadow:var(--cksn-shadow);border-color:var(--cksn-teal);}
+.cksn-creator-ava{
+  width:66px;height:66px;border-radius:50%;
+  display:grid;place-items:center;
+  font-size:24px;font-weight:700;color:#fff;
+  box-shadow:0 0 0 4px #fff,0 0 0 6px var(--cksn-teal-pale);
+}
+.cksn-creator-card h3{font-size:15.5px;color:var(--cksn-ink);}
+.cksn-creator-field{
+  font-size:11.5px;color:var(--cksn-teal-deep);
+  background:var(--cksn-teal-pale);padding:3px 10px;border-radius:999px;
+}
+.cksn-creator-card p{font-size:12.5px;color:var(--cksn-ink-soft);margin:0;line-height:1.6;}
+.cksn-creator-nums{display:flex;gap:16px;font-size:12px;color:var(--cksn-ink-soft);}
+.cksn-creator-nums b{display:block;color:var(--cksn-teal-deep);font-size:14px;}
+.cksn-creator-btn{
+  margin-top:4px;border:1px solid var(--cksn-line);background:#fff;
+  border-radius:999px;font-size:12.5px;color:var(--cksn-teal-deep);
+  padding:6px 18px;transition:.2s;
+}
+.cksn-creator-btn:hover{background:var(--cksn-teal);color:#fff;border-color:var(--cksn-teal);}
+
+/* ============ 作品墙 ============ */
+.cksn-wall{
+  display:grid;
+  grid-template-columns:repeat(6,1fr);
+  grid-auto-rows:120px;
+  gap:14px;
+}
+.cksn-wall-item{
+  position:relative;border-radius:14px;overflow:hidden;
+  box-shadow:0 6px 18px rgba(19,74,97,.12);
+  transition:.28s;
+}
+.cksn-wall-item:hover{transform:scale(1.02);box-shadow:0 14px 32px rgba(19,74,97,.24);}
+.cksn-wall-item svg{width:100%;height:100%;display:block;object-fit:cover;}
+.cksn-wall-item::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,transparent 48%,rgba(9,32,44,.62));
+}
+.cksn-wall-item figcaption{
+  position:absolute;left:12px;right:12px;bottom:10px;z-index:2;
+  color:#fff;font-size:12.5px;line-height:1.4;
+}
+.cksn-wall-item figcaption small{display:block;font-size:11px;opacity:.8;}
+.cksn-wall-lg{grid-column:span 3;grid-row:span 2;}
+.cksn-wall-md{grid-column:span 2;grid-row:span 2;}
+.cksn-wall-sm{grid-column:span 2;grid-row:span 1;}
+
+/* ============ 用户评价 ============ */
+.cksn-review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+.cksn-review{
+  background:#fff;border:1px solid var(--cksn-line);
+  border-radius:16px;padding:20px;
+  position:relative;transition:.22s;
+}
+.cksn-review:hover{box-shadow:var(--cksn-shadow);transform:translateY(-3px);}
+.cksn-review::before{
+  content:"“";position:absolute;right:18px;top:4px;
+  font-size:56px;line-height:1;color:var(--cksn-teal-pale);
+  font-family:Georgia,serif;
+}
+.cksn-review p{font-size:13.8px;color:var(--cksn-ink-soft);position:relative;z-index:1;}
+.cksn-review-who{display:flex;align-items:center;gap:9px;margin-top:12px;}
+.cksn-review-who b{font-size:13px;}
+.cksn-review-who span{font-size:11.5px;color:var(--cksn-ink-soft);}
+.cksn-stars{color:var(--cksn-gold);font-size:12px;letter-spacing:1px;margin-bottom:8px;}
+
+/* ============ 动态 / FAQ / 联系 ============ */
+.cksn-double{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:start;}
+.cksn-timeline{position:relative;padding-left:22px;}
+.cksn-timeline::before{
+  content:"";position:absolute;left:6px;top:6px;bottom:6px;
+  width:2px;background:linear-gradient(180deg,var(--cksn-gold),var(--cksn-teal-pale));
+}
+.cksn-news-item{position:relative;padding-bottom:22px;}
+.cksn-news-item:last-child{padding-bottom:0;}
+.cksn-news-item::before{
+  content:"";position:absolute;left:-22px;top:6px;
+  width:12px;height:12px;border-radius:50%;
+  background:#fff;border:3px solid var(--cksn-teal);
+}
+.cksn-news-item time{font-size:12px;color:var(--cksn-gold);font-weight:700;letter-spacing:.5px;}
+.cksn-news-item h4{font-size:14.5px;margin:4px 0 4px;color:var(--cksn-ink);}
+.cksn-news-item p{font-size:13px;color:var(--cksn-ink-soft);margin:0;}
+.cksn-faq details{
+  background:#fff;border:1px solid var(--cksn-line);
+  border-radius:12px;padding:14px 18px;margin-bottom:10px;
+  transition:.2s;
+}
+.cksn-faq details[open]{border-color:var(--cksn-teal);box-shadow:0 6px 18px rgba(31,111,143,.1);}
+.cksn-faq summary{
+  cursor:pointer;font-size:14px;font-weight:600;color:var(--cksn-ink);
+  list-style:none;display:flex;justify-content:space-between;gap:12px;align-items:center;
+}
+.cksn-faq summary::-webkit-details-marker{display:none;}
+.cksn-faq summary::after{
+  content:"+";color:var(--cksn-teal);font-size:20px;font-weight:400;flex:none;
+  transition:.2s;
+}
+.cksn-faq details[open] summary::after{content:"−";}
+.cksn-faq details p{font-size:13.2px;color:var(--cksn-ink-soft);margin:10px 0 0;}
+
+.cksn-contact-card{
+  background:linear-gradient(155deg,var(--cksn-teal-deep),var(--cksn-teal) 72%,#2a8aa8);
+  color:#eef8fb;border-radius:20px;padding:30px;
+  box-shadow:0 20px 46px rgba(19,74,97,.28);
+  position:relative;overflow:hidden;
+}
+.cksn-contact-card::after{
+  content:"";position:absolute;right:-50px;top:-50px;width:180px;height:180px;
+  border-radius:50%;background:rgba(217,165,58,.26);
+}
+.cksn-contact-card h3{font-size:20px;margin-bottom:10px;position:relative;z-index:2;}
+.cksn-contact-card p{font-size:13.6px;color:#d3ecf3;position:relative;z-index:2;}
+.cksn-contact-info{list-style:none;padding:0;margin:16px 0 0;display:grid;gap:9px;position:relative;z-index:2;}
+.cksn-contact-info li{font-size:13.5px;display:flex;gap:9px;align-items:center;}
+.cksn-contact-info li i{
+  width:7px;height:7px;border-radius:50%;background:var(--cksn-gold);flex:none;
+}
+.cksn-contact-actions{display:flex;gap:10px;margin-top:20px;flex-wrap:wrap;position:relative;z-index:2;}
+.cksn-partners{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;}
+.cksn-partners span{
+  font-size:12.5px;color:var(--cksn-ink-soft);
+  border:1px dashed var(--cksn-line);
+  padding:6px 14px;border-radius:9px;
+  background:#fff;
+}
+
+/* ============ 页脚 ============ */
+.cksn-footer{
+  background:#0d1f28;color:#a9c3cc;padding:52px 0 26px;margin-top:10px;
+}
+.cksn-footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:32px;}
+.cksn-footer h4{font-size:14px;color:#eef6f8;margin-bottom:14px;letter-spacing:.5px;}
+.cksn-footer p{font-size:13px;line-height:1.85;color:#8fabb5;margin:0 0 10px;}
+.cksn-footer-links{list-style:none;padding:0;margin:0;display:grid;gap:8px;}
+.cksn-footer-links a{font-size:13px;color:#8fabb5;transition:.2s;}
+.cksn-footer-links a:hover{color:var(--cksn-gold);padding-left:3px;}
+.cksn-footer-logo{display:flex;align-items:center;gap:10px;margin-bottom:12px;}
+.cksn-footer-logo b{color:#fff;font-size:16px;}
+.cksn-footer-bottom{
+  border-top:1px solid rgba(255,255,255,.1);
+  margin-top:34px;padding-top:18px;
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+  font-size:12.5px;color:#7a97a1;
+}
+.cksn-footer-bottom a{color:#9cb8c1;}
+
+/* ============ Toast / 回到顶部 / 弹窗 ============ */
+.cksn-top-btn{
+  position:fixed;right:22px;bottom:26px;z-index:70;
+  width:46px;height:46px;border-radius:14px;
+  border:0;background:var(--cksn-teal-deep);color:#fff;
+  font-size:18px;box-shadow:0 10px 24px rgba(19,74,97,.32);
+  display:none;place-items:center;transition:.2s;
+}
+.cksn-top-btn:hover{background:var(--cksn-teal);transform:translateY(-3px);}
+.cksn-top-btn.cksn-show{display:grid;}
+.cksn-toast{
+  position:fixed;left:50%;bottom:38px;transform:translate(-50%,20px);
+  background:#0d1f28;color:#eef6f8;
+  font-size:13.5px;padding:11px 22px;border-radius:999px;
+  box-shadow:0 14px 30px rgba(0,0,0,.28);
+  opacity:0;pointer-events:none;transition:.3s;z-index:120;
+  letter-spacing:.3px;
+}
+.cksn-toast.cksn-show{opacity:1;transform:translate(-50%,0);}
+.cksn-modal-mask{
+  position:fixed;inset:0;background:rgba(9,32,44,.56);
+  display:none;place-items:center;z-index:130;padding:20px;
+  backdrop-filter:blur(3px);
+}
+.cksn-modal-mask.cksn-show{display:grid;}
+.cksn-modal{
+  background:#fff;border-radius:20px;width:min(480px,100%);
+  padding:26px;box-shadow:0 30px 70px rgba(0,0,0,.34);
+  animation:cksn-pop .26s ease;
+}
+@keyframes cksn-pop{from{opacity:0;transform:translateY(14px) scale(.97);}to{opacity:1;transform:none;}}
+.cksn-modal h3{font-size:18px;color:var(--cksn-teal-deep);margin-bottom:8px;}
+.cksn-modal p{font-size:13.5px;color:var(--cksn-ink-soft);}
+.cksn-modal-field{margin-top:12px;}
+.cksn-modal-field label{font-size:12.5px;color:var(--cksn-ink-soft);display:block;margin-bottom:5px;}
+.cksn-modal-field input,.cksn-modal-field textarea{
+  width:100%;border:1px solid var(--cksn-line);border-radius:10px;
+  padding:9px 12px;font-size:13.5px;font-family:inherit;
+  outline:none;transition:.2s;background:var(--cksn-paper);
+}
+.cksn-modal-field input:focus,.cksn-modal-field textarea:focus{border-color:var(--cksn-teal);background:#fff;}
+.cksn-modal-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:20px;}
+.cksn-share-row{display:flex;flex-wrap:wrap;gap:9px;margin-top:14px;}
+.cksn-share-row button{
+  border:1px solid var(--cksn-line);background:#fff;border-radius:10px;
+  padding:8px 15px;font-size:13px;color:var(--cksn-ink-soft);transition:.2s;
+}
+.cksn-share-row button:hover{border-color:var(--cksn-teal);color:var(--cksn-teal-deep);background:var(--cksn-teal-pale);}
+
+/* ============ 响应式 ============ */
+@media (max-width:1080px){
+  .cksn-hero-grid{grid-template-columns:1fr;gap:34px;}
+  .cksn-hero-visual{max-width:640px;margin:0 auto;}
+  .cksn-video-grid,.cksn-topic-grid,.cksn-review-grid{grid-template-columns:repeat(2,1fr);}
+  .cksn-creator-grid{grid-template-columns:repeat(2,1fr);}
+  .cksn-about-grid,.cksn-double,.cksn-focus-grid{grid-template-columns:1fr;}
+  .cksn-footer-grid{grid-template-columns:1fr 1fr;}
+  .cksn-wall{grid-template-columns:repeat(4,1fr);}
+  .cksn-wall-lg{grid-column:span 4;grid-row:span 2;}
+  .cksn-wall-md{grid-column:span 2;}
+  .cksn-wall-sm{grid-column:span 2;}
+}
+@media (max-width:860px){
+  html{scroll-padding-top:118px;}
+  .cksn-nav{display:none;}
+  .cksn-burger{display:block;}
+  .cksn-search input{width:110px;}
+  .cksn-header-tools .cksn-btn{display:none;}
+}
+@media (max-width:680px){
+  .cksn-section{padding:46px 0;}
+  .cksn-video-grid,.cksn-topic-grid,.cksn-review-grid,.cksn-creator-grid{grid-template-columns:1fr;}
+  .cksn-hero-stats{grid-template-columns:1fr 1fr;}
+  .cksn-wall{grid-template-columns:repeat(2,1fr);grid-auto-rows:104px;}
+  .cksn-wall-lg,.cksn-wall-md,.cksn-wall-sm{grid-column:span 2;grid-row:span 2;}
+  .cksn-footer-grid{grid-template-columns:1fr;}
+  .cksn-search{display:none;}
+  .cksn-mini-card{grid-template-columns:96px 1fr;}
+  .cksn-announce-inner{font-size:12px;}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- ========== 吸顶层：公告条 + 页头 ========== -->
+<div class="cksn-sticky-shell">
+  <div class="cksn-announce">
+    <div class="cksn-announce-inner">
+      <span class="cksn-announce-tag">更新</span>
+      <span class="cksn-announce-text">11月18日新增《布拉格老城广场的硬币经济学》街采正片 · 第12期创作者开放日报名开启 · 秋季城市影像征集进入投票阶段 · 官方发布创作者扶持计划第二季细则</span>
+      <a class="cksn-announce-link" href="#cksn-news">查看动态</a>
+    </div>
+  </div>
+  <header class="cksn-header">
+    <div class="cksn-header-inner">
+      <a class="cksn-logo" href="#cksn-hero" aria-label="捷克街头钞能力官方网站首页">
+        <span class="cksn-logo-mark">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="10" fill="none" stroke="#f2c14e" stroke-width="2.4"/><path d="M13 10.5l9 5.5-9 5.5z" fill="#f2c14e"/></svg>
+        </span>
+        <span class="cksn-logo-text">
+          <b>捷克街头钞能力</b>
+          <span>CZECH STREET VISION</span>
+        </span>
+      </a>
+      <nav class="cksn-nav" id="cksnNav">
+        <a href="#cksn-hero">首页</a>
+        <a href="#cksn-focus">焦点影像</a>
+        <a href="#cksn-videos">内容频道</a>
+        <a href="#cksn-topics">专题企划</a>
+        <a href="#cksn-creators">创作者</a>
+        <a href="#cksn-news">企业动态</a>
+        <a href="#cksn-faq">帮助</a>
+        <a href="#cksn-contact">联系</a>
+      </nav>
+      <div class="cksn-header-tools">
+        <div class="cksn-search" id="cksnSearchBox">
+          <input type="text" id="cksnSearchInput" placeholder="搜索街头影像 / 创作者" aria-label="站内搜索">
+          <button type="button" id="cksnSearchBtn">搜索</button>
+          <div class="cksn-search-hint" id="cksnSearchHint"></div>
+        </div>
+        <button class="cksn-btn cksn-btn-primary" type="button" id="cksnSubmitTop">投稿入口</button>
+        <button class="cksn-burger" type="button" id="cksnBurger" aria-label="展开导航" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main>
+
+<!-- ========== 首屏 ========== -->
+<section class="cksn-hero" id="cksn-hero">
+  <div class="cksn-container">
+    <div class="cksn-hero-grid">
+      <div>
+        <span class="cksn-hero-badge"><i></i>品牌官网 · 中国企业级视频内容平台</span>
+        <h1>捷克街头<em>钞能力</em></h1>
+        <p class="cksn-hero-slogan">用镜头记录每一次街头的真实交换</p>
+        <p class="cksn-hero-desc">作为深耕城市街头影像的原创品牌，我们以纪录片式的观察方式，记录布拉格、布尔诺、克鲁姆洛夫等地街头的人情往来与在地文化，为企业与创作者搭建高品质、正版授权的内容生态。官方网站持续运营，每日更新精品内容。</p>
+        <div class="cksn-hero-actions">
+          <a class="cksn-btn cksn-btn-primary" href="#cksn-videos">浏览内容频道</a>
+          <button class="cksn-btn cksn-btn-gold" type="button" id="cksnHeroJoin">成为创作者</button>
+          <a class="cksn-btn cksn-btn-ghost" href="#cksn-about">了解品牌</a>
+        </div>
+        <div class="cksn-hero-stats">
+          <div class="cksn-hero-stat"><b>1280+</b><span>原创影像作品</span></div>
+          <div class="cksn-hero-stat"><b>96</b><span>签约创作者</span></div>
+          <div class="cksn-hero-stat"><b>240万</b><span>社区活跃用户</span></div>
+        </div>
+      </div>
+      <div class="cksn-hero-visual">
+        <span class="cksn-hero-chip">第12期街采进行中</span>
+        <div class="cksn-hero-frame">
+          <svg viewBox="0 0 640 400" role="img" aria-label="布拉格老城广场街头采访现场主视觉"><defs><linearGradient id="cksnSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe0ea"/><stop offset="1" stop-color="#f6e7c8"/></linearGradient><linearGradient id="cksnRoad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a6570"/><stop offset="1" stop-color="#20343d"/></linearGradient></defs><rect width="640" height="400" fill="url(#cksnSky)"/><circle cx="520" cy="86" r="42" fill="#f6d68a" opacity=".9"/><g fill="#dcc49c"><rect x="40" y="150" width="90" height="170" rx="4"/><rect x="150" y="120" width="70" height="200" rx="4"/><rect x="240" y="170" width="110" height="150" rx="4"/></g><g fill="#b99b6e"><polygon points="40,150 85,110 130,150"/><polygon points="150,120 185,88 220,120"/><polygon points="240,170 295,132 350,170"/></g><g fill="#8fb6bf"><rect x="380" y="140" width="100" height="180" rx="5"/><rect x="500" y="165" width="100" height="155" rx="5"/></g><g fill="#6f98a6"><polygon points="380,140 430,104 480,140"/><polygon points="500,165 550,132 600,165"/></g><rect x="0" y="320" width="640" height="80" fill="url(#cksnRoad)"/><g stroke="#f2c14e" stroke-width="4" opacity=".8"><line x1="0" y1="360" x2="640" y2="360" stroke-dasharray="26 22"/></g><g><rect x="250" y="236" width="140" height="86" rx="10" fill="#12222b" opacity=".85"/><rect x="262" y="248" width="116" height="52" rx="6" fill="#2a8aa8"/><circle cx="320" cy="330" r="7" fill="#f2c14e"/><rect x="286" y="322" width="68" height="6" rx="3" fill="#94aab3"/></g><g fill="#12222b" opacity=".9"><circle cx="180" cy="300" r="14"/><rect x="166" y="314" width="28" height="46" rx="12"/><circle cx="420" cy="296" r="13"/><rect x="407" y="309" width="26" height="50" rx="11"/></g><g fill="#f2c14e" opacity=".95"><circle cx="336" cy="200" r="15"/><circle cx="364" cy="196" r="11"/><circle cx="308" cy="196" r="9"/></g><g stroke="#f2c14e" stroke-width="3" fill="none" opacity=".7"><path d="M320 176c-30-24-76-20-92 8"/></g></svg>
+        </div>
+        <div class="cksn-hero-float"><span class="cksn-dot"></span>实时在线 <b>3,214</b> 位社区用户</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 品牌定位与深度解析 ========== -->
+<section class="cksn-section cksn-section-alt" id="cksn-about">
+  <div class="cksn-container">
+    <div class="cksn-section-head">
+      <div>
+        <div class="cksn-eyebrow">Brand Positioning</div>
+        <h2>关于捷克街头钞能力</h2>
+        <p>一支专注城市街头影像的原创团队，一个持续生长的内容社区。</p>
+      </div>
+      <a class="cksn-link-more" href="#cksn-contact">品牌合作咨询</a>
+    </div>
+    <div class="cksn-about-grid">
+      <div class="cksn-about-copy">
+        <h3>我们是谁：从街头出发的品牌官网</h3>
+        <p>捷克街头钞能力是一个以城市街头为观察对象的视频内容品牌。这里的“钞能力”并非字面上的金钱游戏，而是我们对街头一切真实交换行为的比喻——一次对话、一段旋律、一杯热红酒、一张手写招牌，都是城市里流通的“硬通货”。我们希望用影像把这些看不见的交换记录下来，让观众看到街头真正的价值流向。作为品牌官方网站，我们坚持原创拍摄与正版授权，所有内容均经过摄制团队与在地创作者共同打磨，呈现高清画质与专业叙事。</p>
+        <p>品牌自创立以来，持续深耕城市影像与在地文化这一垂直领域，签约创作者覆盖布拉格、布尔诺、俄斯特拉发、克鲁姆洛夫等多个城市。我们相信，街头是城市最真实的切片，而视频是最能保留温度的表达方式。企业团队由纪录片导演、城市研究者、剪辑师与社区运营者组成，形成从选题策划、现场摄制到后期发布的完整内容生产链条。</p>
+        <h3>我们做什么：内容生态与创作者社区</h3>
+        <p>平台内容主要分为四条主线：街头人物访谈、城市空间记录、在地文化专题与创作者共创企划。街头人物访谈关注普通人的选择与坚持；城市空间记录以建筑、街巷、交通为线索，讲述城市如何被使用；在地文化专题深入市集、节庆、手艺与饮食；共创企划则向社区开放选题，让创作者与观众共同决定下一站去哪里。四条主线相互嵌套，构成一个有层次、可持续的内容生态。</p>
+        <p>为了保障内容品质，我们建立了完整的创作者扶持机制：新人投稿审核通过后进入孵化池，获得选题指导与拍摄建议；成长创作者可参与季度联合企划，获得官方发布资源；成熟创作者则进入品牌合作名录，参与企业定制影像项目。平台同时提供剪辑思路库、脚本灵感库与标题建议工具，帮助创作者降低创作门槛。我们坚持用户至上与匠心打磨，希望每一位加入社区的人都能感受到真实与温暖的力量。</p>
+        <h3>我们为什么坚持：街头影像的社会责任</h3>
+        <p>街头影像的价值不只在于好看。当我们把镜头对准街头，实际上是在为城市留下公共记忆。老店铺拆迁前的最后一晚、市集摊主三十年的作息、街头艺人第一次被认真记录的表演，这些内容构成了城市的文化底稿。我们把这视为品牌的社会责任：用专业设备与尊重态度，记录那些容易被忽略的日常，并通过社区讨论让更多人理解城市多元与包容的一面。</p>
+        <p>与此同时，我们坚持内容合规与版权清晰。所有出镜者均签署授权，所有音乐与素材均取得正版许可，所有发布内容均经过双人审核。我们希望以行业领先的标准要求自己，让“值得信赖”成为品牌最稳定的口碑来源。未来，平台将继续扩展城市地图，把街头影像的方法论带到更多地域，也欢迎企业与机构通过官方网站联系我们，共同发起有影响力的城市影像项目。</p>
+        <h3>关键词解读：街头“钞能力”的三重含义</h3>
+        <p>第一重是交换。街头是城市中最开放的交换场所，人们在这里交换信息、交换情绪、交换手艺。我们用镜头记录这些交换发生的瞬间，让观众看到城市运转的微观机制。第二重是选择。每一次街头对话都包含着选择：摊主选择留在老街，乐手选择在地铁口演奏，年轻人选择回到故乡开店。这些选择构成了城市性格的底色，也是我们内容中最打动人的部分。第三重是连接。影像把陌生人连接起来，评论区把观众连接起来，创作者企划把城市连接起来。我们相信连接会产生力量，而力量来自真实。</p>
+      </div>
+      <aside>
+        <div class="cksn-aside-card">
+          <h4>本周热度榜</h4>
+          <ol class="cksn-rank-list">
+            <li><span class="cksn-rank-no">1</span>老城广场的硬币经济学<b>9.8</b></li>
+            <li><span class="cksn-rank-no">2</span>查理大桥上的第七种琴声<b>9.5</b></li>
+            <li><span class="cksn-rank-no">3</span>市集摊主的三十年作息<b>9.3</b></li>
+            <li><span class="cksn-rank-no">4</span>一杯热红酒的冬季账本<b>9.0</b></li>
+            <li><span class="cksn-rank-no">5</span>布尔诺电车司机的夜班<b>8.8</b></li>
+          </ol>
+        </div>
+        <div class="cksn-aside-card">
+          <h4>内容标签</h4>
+          <div class="cksn-tag-cloud">
+            <span>街头访谈</span><span>城市探索</span><span>在地文化</span>
+            <span>人物故事</span><span>影像记录</span><span>创作幕后</span>
+            <span>市集观察</span><span>城市声音</span><span>社区共创</span>
+          </div>
+        </div>
+        <div class="cksn-aside-card">
+          <h4>官方发布节奏</h4>
+          <p style="font-size:13.2px;color:var(--cksn-ink-soft);margin:0;">每周二、周五更新街采正片；每周日发布创作者幕后手记；每月末推出城市专题合辑。企业动态与活动报名信息同步在公告条与动态区更新。</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 焦点内容 ========== -->
+<section class="cksn-section" id="cksn-focus">
+  <div class="cksn-container">
+    <div class="cksn-section-head">
+      <div>
+        <div class="cksn-eyebrow">Featured</div>
+        <h2>焦点影像</h2>
+        <p>编辑部本周推荐，从街头现场到幕后手记，看见城市的不同侧面。</p>
+      </div>
+      <a class="cksn-link-more" href="#cksn-videos">查看全部内容</a>
+    </div>
+    <div class="cksn-focus-grid">
+      <article class="cksn-focus-main">
+        <div class="cksn-cover">
+          <svg viewBox="0 0 640 360" role="img" aria-label="老城广场的硬币经济学街采正片封面"><defs><linearGradient id="cksnF1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f6f8f"/><stop offset="1" stop-color="#0d2b38"/></linearGradient><radialGradient id="cksnF1r" cx=".7" cy=".25" r=".6"><stop offset="0" stop-color="#f2c14e" stop-opacity=".55"/><stop offset="1" stop-color="#f2c14e" stop-opacity="0"/></radialGradient></defs><rect width="640" height="360" fill="url(#cksnF1)"/><rect width="640" height="360" fill="url(#cksnF1r)"/><g stroke="#8fd0e0" stroke-width="2" opacity=".5"><path d="M0 250h640"/><path d="M0 290h640"/></g><g fill="#f2c14e"><circle cx="150" cy="120" r="26" opacity=".9"/><circle cx="205" cy="150" r="18" opacity=".7"/><circle cx="120" cy="170" r="14" opacity=".55"/></g><g fill="#e9f6fa" opacity=".9"><rect x="380" y="120" width="180" height="120" rx="10"/><rect x="400" y="140" width="140" height="14" rx="7" opacity=".38"/><rect x="400" y="166" width="110" height="12" rx="6" opacity=".3"/><rect x="400" y="190" width="128" height="12" rx="6" opacity=".24"/></g><g fill="#12222b"><circle cx="320" cy="238" r="20"/><rect x="298" y="258" width="44" height="62" rx="20"/></g><g stroke="#f2c14e" stroke-width="3" fill="none" opacity=".85"><path d="M250 210c20-30 60-46 90-40"/></g></svg>
+          <span class="cksn-cover-tag">正片 · 街采</span>
+          <span class="cksn-cover-dur">18:42</span>
+          <div class="cksn-play-badge"><i></i></div>
+        </div>
+        <div class="cksn-focus-meta">
+          <h3>老城广场的硬币经济学：一枚克朗如何走完一天</h3>
+          <p>我们跟随一枚硬币的流转路径，走访广场上的摊主、乐手与游客，记录它如何在不同人手中产生完全不同的意义。这是“钞能力”系列第十二期，也是首次尝试全天候跟拍。</p>
+          <div class="cksn-video-meta">
+            <span class="cksn-avatar" style="background:#1f6f8f;">捷</span>
+            <span>捷克街头钞能力官方</span>
+            <span>·</span><span>11月18日</span>
+            <span>·</span><span>4.2万次播放</span>
+          </div>
+        </div>
+      </article>
+      <div class="cksn-mini-list">
+        <article class="cksn-mini-card">
+          <div class="cksn-mini-thumb">
+            <svg viewBox="0 0 160 100" role="img" aria-label="查理大桥上的第七种琴声封面小图"><rect width="160" height="100" fill="#2a5d70"/><g fill="#f2c14e" opacity=".9"><circle cx="36" cy="34" r="12"/><circle cx="60" cy="44" r="7"/></g><g stroke="#bfe0ea" stroke-width="3" opacity=".7"><path d="M100 70c10-18 26-18 36 0"/></g><circle cx="126" cy="34" r="9" fill="#e9f6fa" opacity=".8"/></svg>
+          </div>
+          <div>
+            <h4>查理大桥上的第七种琴声</h4>
+            <span>人物访谈 · 14:05 · 3.1万播放</span>
+          </div>
+        </article>
+        <article class="cksn-mini-card">
+          <div class="cksn-mini-thumb">
+            <svg viewBox="0 0 160 100" role="img" aria-label="市集摊主的三十年作息封面小图"><rect width="160" height="100" fill="#c7803c"/><g fill="#f3dfb0"><rect x="18" y="40" width="44" height="34" rx="5"/><rect x="70" y="52" width="30" height="22" rx="4"/></g><circle cx="122" cy="36" r="14" fill="#fbe8c0" opacity=".9"/><path d="M0 86h160" stroke="#8a4f22" stroke-width="6" opacity=".5"/></svg>
+          </div>
+          <div>
+            <h4>市集摊主的三十年作息</h4>
+            <span>城市探索 · 21:30 · 2.8万播放</span>
+          </div>
+        </article>
+        <article class="cksn-mini-card">
+          <div class="cksn-mini-thumb">
+            <svg viewBox="0 0 160 100" role="img" aria-label="布尔诺电车司机的夜班封面小图"><rect width="160" height="100" fill="#172a33"/><g stroke="#f2c14e" stroke-width="3" opacity=".8"><path d="M0 72h160" stroke-dasharray="14 10"/></g><rect x="34" y="34" width="60" height="30" rx="6" fill="#4f97b0"/><circle cx="50" cy="70" r="6" fill="#f2c14e"/><circle cx="80" cy="70" r="6" fill="#f2c14e"/><circle cx="128" cy="32" r="8" fill="#e9f6fa" opacity=".8"/></svg>
+          </div>
+          <div>
+            <h4>布尔诺电车司机的夜班</h4>
+            <span>城市声音 · 16:12 · 2.4万播放</span>
+          </div>
+        </article>
+        <article class="cksn-mini-card">
+          <div class="cksn-mini-thumb">
+            <svg viewBox="0 0 160 100" role="img" aria-label="一杯热红酒的冬季账本封面小图"><rect width="160" height="100" fill="#8a2f3a"/><g fill="#f3dfb0"><path d="M56 40h48l-8 26H64z"/><rect x="72" y="66" width="16" height="8" rx="3"/></g><circle cx="120" cy="28" r="10" fill="#f2c14e" opacity=".8"/><g stroke="#eaa9a2" stroke-width="2" opacity=".6"><path d="M22 80c14-12 28-12 42 0"/></g></svg>
+          </div>
+          <div>
+            <h4>一杯热红酒的冬季账本</h4>
+            <span>在地文化 · 12:48 · 1.9万播放</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 内容频道 / 视频流 ========== -->
+<section class="cksn-section cksn-section-alt" id="cksn-videos">
+  <div class="cksn-container">
+    <div class="cksn-section-head">
+      <div>
+        <div class="cksn-eyebrow">Content Channel</div>
+        <h2>内容频道</h2>
+        <p>按主题筛选，找到你想看的那条街。所有内容均为品牌官方与签约创作者原创发布。</p>
+      </div>
+      <a class="cksn-link-more" href="#cksn-contact">内容合作</a>
+    </div>
+    <div class="cksn-filter-bar" id="cksnFilterBar">
+      <button class="cksn-filter-chip cksn-active" data-filter="all" type="button">全部</button>
+      <button class="cksn-filter-chip" data-filter="访谈" type="button">街头访谈</button>
+      <button class="cksn-filter-chip" data-filter="城市" type="button">城市探索</button>
+      <button class="cksn-filter-chip" data-filter="文化" type="button">在地文化</button>
+      <button class="cksn-filter-chip" data-filter="幕后" type="button">创作幕后</button>
+    </div>
+    <div class="cksn-video-grid" id="cksnVideoGrid">
+
+      <article class="cksn-video-card" data-cat="访谈">
+        <div class="cksn-video-cover">
+          <svg viewBox="0 0 480 270" role="img" aria-label="街头艺人阿列克谢的第一支手风琴封面"><defs><linearGradient id="cksnV1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2b6f86"/><stop offset="1" stop-color="#0f2a34"/></linearGradient></defs><rect width="480" height="270" fill="url(#cksnV1)"/><g fill="#f2c14e" opacity=".85"><circle cx="96" cy="70" r="20"/><circle cx="132" cy="94" r="11"/></g><g fill="#e9f6fa" opacity=".9"><rect x="280" y="80" width="140" height="90" rx="10"/></g><g fill="#12222b"><circle cx="220" cy="160" r="17"/><rect x="201" y="178" width="38" height="54" rx="17"/></g><g stroke="#8fd0e0" stroke-width="2" opacity=".5"><path d="M0 210h480"/></g></svg>
+          <span class="cksn-cover-tag">街头访谈</span>
+          <span class="cksn-cover-dur">15:26</span>
+          <span class="cksn-cover-play"></span>
+        </div>
+        <div class="cksn-video-body">
+          <h3>街头艺人阿列克谢的第一支手风琴</h3>
+          <p>在查理大桥东侧，他拉了十一年手风琴。这次我们聊了聊他为什么坚持每天只拉同一首曲子。</p>
+          <div class="cksn-video-meta"><span class="cksn-avatar" style="background:#2a8aa8;">阿</span><span>阿列克谢 · 3.6万播放 · 11月16日</span></div>
+          <div class="cksn-video-actions">
+            <button class="cksn-act-btn cksn-like-btn" type="button" data-count="428">♥ 428</button>
+            <button class="cksn-act-btn cksn-fav-btn" type="button">☆ 收藏</button>
+            <button class="cksn-act-btn cksn-comment-btn" type="button">评论</button>
+            <button class="cksn-act-btn cksn-share-btn" type="button">分享</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="cksn-video-card" data-cat="城市">
+        <div class="cksn-video-cover">
+          <svg viewBox="0 0 480 270" role="img" aria-label="清晨五点的布尔诺中央市场封面"><defs><linearGradient id="cksnV2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9cfa0"/><stop offset="1" stop-color="#a86f3a"/></linearGradient></defs><rect width="480" height="270" fill="url(#cksnV2)"/><g fill="#7c4a22" opacity=".8"><rect x="40" y="150" width="120" height="90"/><rect x="180" y="170" width="80" height="70"/><rect x="280" y="140" width="140" height="100"/></g><g fill="#f6e3bd"><path d="M40 150l60-40 60 40z"/><path d="M280 140l70-44 70 44z"/></g><g fill="#fff6e2" opacity=".9"><circle cx="90" cy="60" r="26"/></g><g stroke="#8a4f22" stroke-width="3" opacity=".5"><path d="M0 240h480"/></g></svg>
+          <span class="cksn-cover-tag">城市探索</span>
+          <span class="cksn-cover-dur">09:58</span>
+          <span class="cksn-cover-play"></span>
+        </div>
+        <div class="cksn-video-body">
+          <h3>清晨五点的布尔诺中央市场</h3>
+          <p>天还没亮，摊主们已经开始摆放蔬果。跟着镜头看一座市场如何在天亮前完成准备工作。</p>
+          <div class="cksn-video-meta"><span class="cksn-avatar" style="background:#c7803c;">布</span><span>城市拾光 · 2.9万播放 · 11月14日</span></div>
+          <div class="cksn-video-actions">
+            <button class="cksn-act-btn cksn-like-btn" type="button" data-count="316">♥ 316</button>
+            <button class="cksn-act-btn cksn-fav-btn" type="button">☆ 收藏</button>
+            <button class="cksn-act-btn cksn-comment-btn" type="button">评论</button>
+            <button class="cksn-act-btn cksn-share-btn" type="button">分享</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="cksn-video-card" data-cat="文化">
+        <div class="cksn-video-cover">
+          <svg viewBox="0 0 480 270" role="img" aria-label="克鲁姆洛夫手作木偶的最后一针封面"><defs><linearGradient id="cksnV3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6b4b7c"/><stop offset="1" stop-color="#2a1c33"/></linearGradient></defs><rect width="480" height="270" fill="url(#cksnV3)"/><g fill="#f3dfb0" opacity=".9"><circle cx="240" cy="120" r="46"/><circle cx="226" cy="108" r="6" fill="#2a1c33"/><circle cx="254" cy="108" r="6" fill="#2a1c33"/><path d="M222 138q18 16 36 0" stroke="#2a1c33" stroke-width="4" fill="none"/></g><g stroke="#d9a53a" stroke-width="2" opacity=".7"><path d="M240 166v56"/><path d="M180 200h120"/></g><g fill="#c79fc9" opacity=".5"><circle cx="90" cy="70" r="26"/><circle cx="400" cy="210" r="34"/></g></svg>
+          <span class="cksn-cover-tag">在地文化</span>
+          <span class="cksn-cover-dur">17:33</span>
+          <span class="cksn-cover-play"></span>
+        </div>
+        <div class="cksn-video-body">
+          <h3>克鲁姆洛夫手作木偶的最后一针</h3>
+          <p>老匠人扬说，木偶的眼睛必须最后缝。我们记录了他在工作台前的完整一天。</p>
+          <div class="cksn-video-meta"><span class="cksn-avatar" style="background:#6b4b7c;">匠</span><span>手艺地图 · 2.3万播放 · 11月12日</span></div>
+          <div class="cksn-video-actions">
+            <button class="cksn-act-btn cksn-like-btn" type="button" data-count="289">♥ 289</button>
+            <button class="cksn-act-btn cksn-fav-btn" type="button">☆ 收藏</button>
+            <button class="cksn-act-btn cksn-comment-btn" type="button">评论</button>
+            <button class="cksn-act-btn cksn-share-btn" type="button">分享</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="cksn-video-card" data-cat="幕后">
+        <div class="cksn-video-cover">
+          <svg viewBox="0 0 480 270" role="img" aria-label="跟拍团队的一天设备与路线封面"><defs><linearGradient id="cksnV4" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#20343d"/><stop offset="1" stop-color="#3d6b7a"/></linearGradient></defs><rect width="480" height="270" fill="url(#cksnV4)"/><g fill="#8fd0e0" opacity=".85"><rect x="70" y="90" width="110" height="70" rx="8"/><circle cx="125" cy="125" r="18" fill="#12222b"/><circle cx="125" cy="125" r="8" fill="#8fd0e0"/></g><g stroke="#f2c14e" stroke-width="3" fill="none" opacity=".85"><path d="M200 120h60l30 30v60"/></g><g fill="#f2c14e"><circle cx="300" cy="210" r="10"/><circle cx="360" cy="170" r="7"/></g><g fill="#e9f6fa" opacity=".7"><rect x="250" y="60" width="150" height="12" rx="6"/><rect x="250" y="84" width="110" height="10" rx="5"/></g></svg>
+          <span class="cksn-cover-tag">创作幕后</span>
+          <span class="cksn-cover-dur">11:07</span>
+          <span class="cksn-cover-play"></span>
+        </div>
+        <div class="cksn-video-body">
+          <h3>跟拍团队的一天：设备清单与踩点路线</h3>
+          <p>从清晨布光到夜间收工，完整拆解一次街头拍摄的流程，附可复用的踩点检查表。</p>
+          <div class="cksn-video-meta"><span class="cksn-avatar" style="background:#3d6b7a;">摄</span><span>影像工坊 · 1.8万播放 · 11月11日</span></div>
+          <div class="cksn-video-actions">
+            <button class="cksn-act-btn cksn-like-btn" type="button" data-count="245">♥ 245</button>
+            <button class="cksn-act-btn cksn-fav-btn" type="button">☆ 收藏</button>
+            <button class="cksn-act-btn cksn-comment-btn" type="button">评论</button>
+            <button class="cksn-act-btn cksn-share-btn" type="button">分享</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="cksn-video-card" data-cat="访谈">
+        <div class="cksn-video-cover">
+          <svg viewBox="0 0 480 270" role="img" aria-label="咖啡馆老板的第三张椅子封面"><defs><linearGradient id="cksnV5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8a5a3a"/><stop offset="1" stop-color="#3a2318"/></linearGradient></defs><rect width="480" height="270" fill="url(#cksnV5)"/><g fill="#f3dfb0" opacity=".9"><rect x="70" y="120" width="90" height="80" rx="6"/><rect x="180" y="140" width="70" height="60" rx="6"/></g><g fill="#e9f6fa" opacity=".85"><circle cx="330" cy="110" r="30"/><rect x="300" y="140" width="60" height="60" rx="8"/></g><g stroke="#d9a53a" stroke-width="2" opacity=".6"><path d="M0 220h480"/></g><g fill="#c78a3a" opacity=".55"><circle cx="420" cy="60" r="24"/></g></svg>
+          <span class="cksn-cover-tag">街头访谈</span>
+          <span class="cksn-cover-dur">13:44</span>
+          <span class="cksn-cover-play"></span>
+        </div>
+        <div class="cksn-video-body">
+          <h3>咖啡馆老板的第三张椅子</h3>
+          <p>他店里永远留着一张空椅子，说是给“需要坐一会儿的人”。这次我们问了原因。</p>
+          <div class="cksn-video-meta"><span class="cksn-avatar" style="background:#8a5a3a;">咖</span><span>街角对话 · 2.1万播放 · 11月9日</span></div>
+          <div class="cksn-video-actions">
+            <button class="cksn-act-btn cksn-like-btn" type="button" data-count="267">♥ 267</button>
+            <button class="cksn-act-btn cksn-fav-btn" type="button">☆ 收藏</button>
+            <button class="cksn-act-btn cksn-comment-btn" type="button">评论</button>
+            <button class="cksn-act-btn cksn-share-btn" type="button">分享</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="cksn-video-card" data-cat="城市">
+        <div class="cksn-video-cover">
+          <svg viewBox="0 0 480 270" role="img" aria-label="伏尔塔瓦河沿岸的十二座桥封面"><defs><linearGradient id="cksnV6" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a8d4e0"/><stop offset="1" stop-color="#2f6b80"/></linearGradient></defs><rect width="480" height="270" fill="url(#cksnV6)"/><g fill="#1c4a5a" opacity=".85"><rect x="0" y="170" width="480" height="100"/></g><g stroke="#e9f6fa" stroke-width="6" opacity=".8" fill="none"><path d="M40 180q40-50 80 0"/><path d="M150 180q40-56 80 0"/><path d="M260 180q40-46 80 0"/><path d="M370 180q40-54 80 0"/></g><g fill="#f2c14e"><circle cx="90" cy="60" r="18" opacity=".9"/></g><g stroke="#8fd0e0" stroke-width="2" opacity=".5"><path d="M0 230h480"/></g></svg>
+          <span class="cksn-cover-tag">城市探索</span>
+          <span class="cksn-cover-dur">19:21</span>
+          <span class="cksn-cover-play"></span>
+        </div>
+        <div class="cksn-video-body">
+          <h3>伏尔塔瓦河沿岸的十二座桥</h3>
+          <p>一条河如何塑造一座城？我们从上游走到下游，记录每座桥下不同的生活节奏。</p>
+          <div class="cksn-video-meta"><span class="cksn-avatar" style="background:#2f6b80;">河</span><span>城市拾光 · 3.2万播放 · 11月6日</span></div>
+          <div class="cksn-video-actions">
+            <button class="cksn-act-btn cksn-like-btn" type="button" data-count="392">♥ 392</button>
+            <button class="cksn-act-btn cksn-fav-btn" type="button">☆ 收藏</button>
+            <button class="cksn-act-btn cksn-comment-btn" type="button">评论</button>
+            <button class="cksn-act-btn cksn-share-btn" type="button">分享</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== 专题企划 ========== -->
+<section class="cksn-section" id="cksn-topics">
+  <div class="cksn-container">
+    <div class="cksn-section-head">
+      <div>
+        <div class="cksn-eyebrow">Special Projects</div>
+        <h2>专题企划</h2>
+        <p>以季度为单位的深度内容企划，围绕一个城市议题展开多集记录与讨论。</p>
+      </div>
+      <a class="cksn-link-more" href="#cksn-contact">发起联合企划</a>
+    </div>
+    <div class="cksn-topic-grid">
+      <article class="cksn-topic-card">
+        <svg viewBox="0 0 400 200" role="img" aria-label="城市交换计划专题封面"><defs><linearGradient id="cksnT1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f6f8f"/><stop offset="1" stop-color="#0f3542"/></linearGradient></defs><rect width="400" height="200" fill="url(#cksnT1)"/><g stroke="#f2c14e" stroke-width="2.5" fill="none" opacity=".85"><path d="M60 100h120"/><path d="M180 100l-18-14"/><path d="M180 100l-18 14"/><path d="M340 70H220"/><path d="M220 70l18-14"/><path d="M220 70l18 14"/></g><g fill="#8fd0e0" opacity=".7"><circle cx="60" cy="100" r="14"/><circle cx="340" cy="70" r="14"/></g><g fill="#e9f6fa" opacity=".55"><rect x="150" y="150" width="100" height="10" rx="5"/></g></svg>
+        <div class="cksn-topic-body">
+          <span class="cksn-topic-state">更新中 · 第4集</span>
+          <h3>城市交换计划</h3>
+          <p>邀请两个城市的创作者互换拍摄地，用陌生人的视角重新认识自己熟悉的街道。</p>
+        </div>
+      </article>
+      <article class="cksn-topic-card">
+        <svg viewBox="0 0 400 200" role="img" aria-label="老街手艺人专题封面"><defs><linearGradient id="cksnT2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9a53a"/><stop offset="1" stop-color="#8a5a1f"/></linearGradient></defs><rect width="400" height="200" fill="url(#cksnT2)"/><g fill="#3a2318" opacity=".8"><rect x="60" y="90" width="100" height="80" rx="6"/><rect x="190" y="110" width="60" height="60" rx="6"/></g><g fill="#fdf3d8" opacity=".9"><circle cx="290" cy="70" r="30"/><rect x="266" y="104" width="48" height="60" rx="8"/></g><g stroke="#fdf3d8" stroke-width="2" opacity=".5"><path d="M0 180h400"/></g></svg>
+        <div class="cksn-topic-body">
+          <span class="cksn-topic-state cksn-done">已完结 · 共6集</span>
+          <h3>老街手艺人</h3>
+          <p>走进六间仍在营业的老铺子，记录木工、皮具、玻璃与铜器手艺人的日常与坚持。</p>
+        </div>
+      </article>
+      <article class="cksn-topic-card">
+        <svg viewBox="0 0 400 200" role="img" aria-label="城市声音地图专题封面"><defs><linearGradient id="cksnT3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4b3a6b"/><stop offset="1" stop-color="#1d1630"/></linearGradient></defs><rect width="400" height="200" fill="url(#cksnT3)"/><g stroke="#c79fc9" stroke-width="2" fill="none" opacity=".9"><path d="M40 100q20-40 40 0t40 0 40 0 40 0 40 0 40 0 40 0 40 0"/></g><g fill="#f2c14e"><circle cx="120" cy="60" r="8"/><circle cx="260" cy="140" r="10"/><circle cx="340" cy="72" r="6"/></g><g fill="#e9f6fa" opacity=".5"><rect x="140" y="160" width="120" height="8" rx="4"/></g></svg>
+        <div class="cksn-topic-body">
+          <span class="cksn-topic-state">更新中 · 第2集</span>
+          <h3>城市声音地图</h3>
+          <p>收集电车铃、市集叫卖、桥下回声与广场钟声，用听觉拼出一座城市的立体轮廓。</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 创作者矩阵 ========== -->
+<section class="cksn-section cksn-section-alt" id="cksn-creators">
+  <div class="cksn-container">
+    <div class="cksn-section-head">
+      <div>
+        <div class="cksn-eyebrow">Creator Community</div>
+        <h2>创作者矩阵</h2>
+        <p>社区里持续输出的创作者，他们来自街头，也记录街头。</p>
+      </div>
+      <button class="cksn-btn cksn-btn-ghost" type="button" id="cksnCreatorApply">申请入驻</button>
+    </div>
+    <div class="cksn-creator-grid">
+      <article class="cksn-creator-card">
+        <div class="cksn-creator-ava" style="background:linear-gradient(145deg,#2a8aa8,#134a61);">阿</div>
+        <h3>阿列克谢</h3>
+        <span class="cksn-creator-field">街头音乐记录</span>
+        <p>常驻查理大桥，专注记录街头表演者的日常与曲目背后的故事。</p>
+        <div class="cksn-creator-nums">
+          <span><b>86</b>作品</span><span><b>12.4万</b>关注</span>
+        </div>
+        <button class="cksn-creator-btn cksn-creator-info" type="button" data-name="阿列克谢">查看档案</button>
+      </article>
+      <article class="cksn-creator-card">
+        <div class="cksn-creator-ava" style="background:linear-gradient(145deg,#c7803c,#7c4a22);">布</div>
+        <h3>城市拾光</h3>
+        <span class="cksn-creator-field">城市空间观察</span>
+        <p>建筑学背景，擅长用固定镜头记录清晨与深夜的城市空间变化。</p>
+        <div class="cksn-creator-nums">
+          <span><b>124</b>作品</span><span><b>18.7万</b>关注</span>
+        </div>
+        <button class="cksn-creator-btn cksn-creator-info" type="button" data-name="城市拾光">查看档案</button>
+      </article>
+      <article class="cksn-creator-card">
+        <div class="cksn-creator-ava" style="background:linear-gradient(145deg,#6b4b7c,#2a1c33);">匠</div>
+        <h3>手艺地图</h3>
+        <span class="cksn-creator-field">手作与在地文化</span>
+        <p>走访仍在营业的老手艺工坊，记录工具、工序与人之间的长期关系。</p>
+        <div class="cksn-creator-nums">
+          <span><b>62</b>作品</span><span><b>9.6万</b>关注</span>
+        </div>
+        <button class="cksn-creator-btn cksn-creator-info" type="button" data-name="手艺地图">查看档案</button>
+      </article>
+      <article class="cksn-creator-card">
+        <div class="cksn-creator-ava" style="background:linear-gradient(145deg,#3d6b7a,#172a33);">摄</div>
+        <h3>影像工坊</h3>
+        <span class="cksn-creator-field">拍摄幕后与教程</span>
+        <p>分享街头拍摄的设备、路线与剪辑思路，社区里的实用技巧派。</p>
+        <div class="cksn-creator-nums">
+          <span><b>97</b>作品</span><span><b>15.2万</b>关注</span>
+        </div>
+        <button class="cksn-creator-btn cksn-creator-info" type="button" data-name="影像工坊">查看档案</button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 作品墙 ========== -->
+<section class="cksn-section" id="cksn-wall">
+  <div class="cksn-container">
+    <div class="cksn-section-head">
+      <div>
+        <div class="cksn-eyebrow">Image Wall</div>
+        <h2>社区影像墙</h2>
+        <p>来自社区用户的街头瞬间，每张图都对应一条可展开的影像手记。</p>
+      </div>
+      <button class="cksn-btn cksn-btn-ghost" type="button" id="cksnWallUpload">上传作品</button>
+    </div>
+    <div class="cksn-wall">
+      <figure class="cksn-wall-item cksn-wall-lg">
+        <svg viewBox="0 0 400 300" role="img" aria-label="雨后石板路反光中的老城塔楼影像"><defs><linearGradient id="cksnW1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5d8ea0"/><stop offset="1" stop-color="#1b3b48"/></linearGradient></defs><rect width="400" height="300" fill="url(#cksnW1)"/><g fill="#0f2630" opacity=".9"><rect x="120" y="70" width="80" height="150"/><polygon points="120,70 160,30 200,70"/><rect x="230" y="110" width="60" height="110"/><polygon points="230,110 260,72 290,110"/></g><g stroke="#e9f6fa" stroke-width="2" opacity=".45"><path d="M0 230h400"/><path d="M0 250h400"/></g><g fill="#f2c14e" opacity=".85"><circle cx="330" cy="60" r="16"/></g></svg>
+        <figcaption>雨后石板路<small>城市拾光 · 布拉格</small></figcaption>
+      </figure>
+      <figure class="cksn-wall-item cksn-wall-md">
+        <svg viewBox="0 0 260 300" role="img" aria-label="手风琴琴键局部特写影像"><defs><linearGradient id="cksnW2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d9a53a"/><stop offset="1" stop-color="#8a5a1f"/></linearGradient></defs><rect width="260" height="300" fill="url(#cksnW2)"/><g fill="#2a1c00" opacity=".85"><rect x="60" y="60" width="24" height="180" rx="6"/><rect x="100" y="40" width="24" height="180" rx="6"/><rect x="140" y="70" width="24" height="180" rx="6"/><rect x="180" y="50" width="24" height="180" rx="6"/></g><g fill="#fdf3d8" opacity=".6"><circle cx="72" cy="120" r="6"/><circle cx="112" cy="100" r="6"/><circle cx="152" cy="130" r="6"/><circle cx="192" cy="110" r="6"/></g></svg>
+        <figcaption>琴键与手掌<small>阿列克谢 · 街头音乐</small></figcaption>
+      </figure>
+      <figure class="cksn-wall-item cksn-wall-sm">
+        <svg viewBox="0 0 260 160" role="img" aria-label="市集木箱上堆叠的柑橘影像"><defs><linearGradient id="cksnW3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e08a3a"/><stop offset="1" stop-color="#7a3d12"/></linearGradient></defs><rect width="260" height="160" fill="url(#cksnW3)"/><g fill="#f9d27a"><circle cx="70" cy="100" r="20"/><circle cx="106" cy="94" r="18"/><circle cx="140" cy="102" r="20"/><circle cx="176" cy="96" r="17"/></g><g stroke="#5a2a0c" stroke-width="4" opacity=".6"><path d="M40 126h190"/></g></svg>
+        <figcaption>柑橘与木箱<small>市集观察</small></figcaption>
+      </figure>
+      <figure class="cksn-wall-item cksn-wall-sm">
+        <svg viewBox="0 0 260 160" role="img" aria-label="夜间电车轨道与灯光影像"><defs><linearGradient id="cksnW4" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#172a33"/><stop offset="1" stop-color="#355a68"/></linearGradient></defs><rect width="260" height="160" fill="url(#cksnW4)"/><g stroke="#f2c14e" stroke-width="3" opacity=".8"><path d="M0 120h260" stroke-dasharray="18 12"/></g><g fill="#e9f6fa" opacity=".8"><circle cx="60" cy="50" r="9"/><circle cx="120" cy="40" r="6"/><circle cx="200" cy="54" r="7"/></g><g fill="#4f97b0"><rect x="160" y="86" width="60" height="26" rx="5"/></g></svg>
+        <figcaption>末班电车<small>城市声音</small></figcaption>
+      </figure>
+      <figure class="cksn-wall-item cksn-wall-md">
+        <svg viewBox="0 0 260 300" role="img" aria-label="老铺木工刨花堆叠特写影像"><defs><linearGradient id="cksnW5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c9a06a"/><stop offset="1" stop-color="#5a3a1c"/></linearGradient></defs><rect width="260" height="300" fill="url(#cksnW5)"/><g stroke="#f3dfb0" stroke-width="3" fill="none" opacity=".85"><path d="M50 220c30-60 70-60 100 0s60 60 70 0"/><path d="M40 180c34-50 70-50 96 10s48 52 78 4"/></g><g fill="#3a2318" opacity=".8"><rect x="40" y="240" width="180" height="12" rx="6"/></g></svg>
+        <figcaption>刨花与木纹<small>手艺地图</small></figcaption>
+      </figure>
+      <figure class="cksn-wall-item cksn-wall-sm">
+        <svg viewBox="0 0 260 160" role="img" aria-label="广场上鸽子起飞瞬间影像"><defs><linearGradient id="cksnW6" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe0ea"/><stop offset="1" stop-color="#e9f4f7"/></linearGradient></defs><rect width="260" height="160" fill="url(#cksnW6)"/><g fill="#4a6570"><path d="M60 90q10-14 22 0-12 4-22 0"/><path d="M120 70q10-14 22 0-12 4-22 0"/><path d="M180 96q10-14 22 0-12 4-22 0"/><path d="M96 120q9-12 20 0-10 3-20 0"/></g><circle cx="220" cy="40" r="14" fill="#f6d68a" opacity=".9"/></svg>
+        <figcaption>广场鸽群<small>老城广场</small></figcaption>
+      </figure>
+      <figure class="cksn-wall-item cksn-wall-sm">
+        <svg viewBox="0 0 260 160" role="img" aria-label="咖啡馆窗边第三张椅子影像"><defs><linearGradient id="cksnW7" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8a5a3a"/><stop offset="1" stop-color="#3a2318"/></linearGradient></defs><rect width="260" height="160" fill="url(#cksnW7)"/><g fill="#f3dfb0" opacity=".9"><rect x="60" y="70" width="50" height="60" rx="5"/><rect x="64" y="50" width="42" height="20" rx="4"/></g><g fill="#c9a06a" opacity=".7"><rect x="160" y="90" width="60" height="40" rx="5"/></g><circle cx="212" cy="50" r="16" fill="#f2c14e" opacity=".7"/></svg>
+        <figcaption>窗边第三张椅<small>街角对话</small></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 用户评价 ========== -->
+<section class="cksn-section cksn-section-alt" id="cksn-reviews">
+  <div class="cksn-container">
+    <div class="cksn-section-head">
+      <div>
+        <div class="cksn-eyebrow">Community Voice</div>
+        <h2>社区声音</h2>
+        <p>来自观众与创作者的真实反馈，它们构成了品牌口碑的一部分。</p>
+      </div>
+      <a class="cksn-link-more" href="#cksn-contact">反馈建议</a>
+    </div>
+    <div class="cksn-review-grid">
+      <article class="cksn-review">
+        <div class="cksn-stars">★★★★★</div>
+        <p>“硬币经济学”那期我看了三遍。不是那种猎奇视角，而是真的把镜头放低，听摊主把一天的账算完。这种耐心现在很少见。</p>
+        <div class="cksn-review-who"><span class="cksn-avatar" style="background:#2a8aa8;">林</span><div><b>林梓</b><br><span>内容观察者</span></div></div>
+      </article>
+      <article class="cksn-review">
+        <div class="cksn-stars">★★★★★</div>
+        <p>作为在布拉格读书的人，看这些影像会想家。创作者没有把城市拍成明信片，而是拍成了有人住的地方。</p>
+        <div class="cksn-review-who"><span class="cksn-avatar" style="background:#c7803c;">陈</span><div><b>陈默</b><br><span>留学生</span></div></div>
+      </article>
+      <article class="cksn-review">
+        <div class="cksn-stars">★★★★☆</div>
+        <p>拍摄幕后那期收益很大，设备清单和踩点表我直接拿去用了。唯一希望是更新再快一点，等得有点久。</p>
+        <div class="cksn-review-who"><span class="cksn-avatar" style="background:#3d6b7a;">周</span><div><b>周与安</b><br><span>新人创作者</span></div></div>
+      </article>
+      <article class="cksn-review">
+        <div class="cksn-stars">★★★★★</div>
+        <p>专题企划的“城市交换计划”很有意思，两个城市的视角互相碰撞，比单一城市的记录更有层次。</p>
+        <div class="cksn-review-who"><span class="cksn-avatar" style="background:#6b4b7c;">许</span><div><b>许听</b><br><span>城市研究者</span></div></div>
+      </article>
+      <article class="cksn-review">
+        <div class="cksn-stars">★★★★☆</div>
+        <p>评论区氛围不错，大家会认真讨论内容本身。希望以后能多一些创作者和观众的连线活动。</p>
+        <div class="cksn-review-who"><span class="cksn-avatar" style="background:#8a5a3a;">何</span><div><b>何一川</b><br><span>老用户</span></div></div>
+      </article>
+      <article class="cksn-review">
+        <div class="cksn-stars">★★★★★</div>
+        <p>投稿流程很顺，审核反馈也具体，不是那种模板回复。第一次投稿就收到了剪辑建议，挺感动的。</p>
+        <div class="cksn-review-who"><span class="cksn-avatar" style="background:#2f6b80;">苏</span><div><b>苏里</b><br><span>投稿创作者</span></div></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 企业动态 + FAQ ========== -->
+<section class="cksn-section" id="cksn-news">
+  <div class="cksn-container">
+    <div class="cksn-section-head">
+      <div>
+        <div class="cksn-eyebrow">News & Help</div>
+        <h2>企业动态与帮助</h2>
+        <p>官方发布节奏、活动报名信息与常见问题，都在这里。</p>
+      </div>
+      <a class="cksn-link-more" href="#cksn-contact">媒体联络</a>
+    </div>
+    <div class="cksn-double">
+      <div class="cksn-timeline">
+        <article class="cksn-news-item">
+          <time>2026-11-18</time>
+          <h4>《老城广场的硬币经济学》正片发布</h4>
+          <p>第十二期街采正片上线，首次采用全天候跟拍方式，记录一枚硬币在广场上的完整流转路径。</p>
+        </article>
+        <article class="cksn-news-item">
+          <time>2026-11-15</time>
+          <h4>第12期创作者开放日报名开启</h4>
+          <p>面向社区创作者开放30个名额，内容包括街头拍摄安全规范、访谈提问技巧与现场实拍演练。</p>
+        </article>
+        <article class="cksn-news-item">
+          <time>2026-11-10</time>
+          <h4>秋季城市影像征集进入投票阶段</h4>
+          <p>共收到投稿作品214件，初选入围36件。社区投票通道已开启，最终结果将在月末公布。</p>
+        </article>
+        <article class="cksn-news-item">
+          <time>2026-11-05</time>
+          <h4>创作者扶持计划第二季细则发布</h4>
+          <p>新一季计划扩大联合企划范围，新增剪辑思路库与标题建议工具，帮助创作者提升内容完成度。</p>
+        </article>
+        <article class="cksn-news-item">
+          <time>2026-10-28</time>
+          <h4>品牌与三家在地文化机构达成合作</h4>
+          <p>合作内容涵盖城市档案共建、老手艺记录与社区影像工作坊，相关企划将在明年陆续上线。</p>
+        </article>
+      </div>
+      <div class="cksn-faq">
+        <details open>
+          <summary>如何向品牌官方投稿？</summary>
+          <p>可通过页面中的“投稿入口”提交作品链接与简介，编辑部会在五个工作日内给予反馈。首次投稿建议先查看创作指南。</p>
+        </details>
+        <details>
+          <summary>投稿内容有哪些基本要求？</summary>
+          <p>需为原创或已获正版授权，画质高清、声音清晰，时长建议三分钟以上。涉及出镜者需取得授权，素材来源需可追溯。</p>
+        </details>
+        <details>
+          <summary>平台是否提供剪辑与脚本支持？</summary>
+          <p>是的。签约创作者可使用剪辑思路库与脚本灵感工具，也可在开放日活动中获得现场指导。</p>
+        </details>
+        <details>
+          <summary>企业可以发起联合影像企划吗？</summary>
+          <p>可以。我们欢迎在地文化机构、文旅企业与品牌方共同发起城市影像项目，可通过联系入口提交合作需求。</p>
+        </details>
+        <details>
+          <summary>社区活动如何报名？</summary>
+          <p>活动信息会同步更新在公告条与动态区，报名入口通常在活动发布后一周内开放，名额有限。</p>
+        </details>
+        <details>
+          <summary>如何举报不当内容？</summary>
+          <p>可在内容卡片或播放页使用反馈按钮提交举报，我们承诺在三个工作日内完成核验并回复处理结果。</p>
+        </details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 联系 / 合作 ========== -->
+<section class="cksn-section cksn-section-alt" id="cksn-contact">
+  <div class="cksn-container">
+    <div class="cksn-double">
+      <div>
+        <div class="cksn-eyebrow" style="margin-bottom:8px;">Contact & Join</div>
+        <h2 style="font-size:clamp(23px,2.7vw,32px);color:var(--cksn-teal-deep);margin-bottom:12px;">加入社区，一起记录街头</h2>
+        <p style="font-size:14.8px;color:var(--cksn-ink-soft);">无论你是想投稿的创作者、希望合作的企业，还是只想安静看片的老朋友，都欢迎通过以下方式与我们建立联系。品牌官方网站会持续更新合作入口与活动信息。</p>
+        <div class="cksn-partners">
+          <span>布拉格城市档案馆</span>
+          <span>中欧手作联盟</span>
+          <span>布尔诺市集协会</span>
+          <span>城市声音实验室</span>
+          <span>克鲁姆洛夫文旅中心</span>
+        </div>
+      </div>
+      <div class="cksn-contact-card">
+        <h3>官方联系方式</h3>
+        <p>内容合作、投稿咨询、媒体采访与活动报名，均可通过以下渠道联系我们。</p>
+        <ul class="cksn-contact-info">
+          <li><i></i>合作邮箱：hello@czechstreetvision.com</li>
+          <li><i></i>投稿咨询：creator@czechstreetvision.com</li>
+          <li><i></i>工作时间：周一至周五 10:00–19:00（中欧时间）</li>
+          <li><i></i>办公地址：布拉格老城区影像工作坊</li>
+        </ul>
+        <div class="cksn-contact-actions">
+          <button class="cksn-btn cksn-btn-gold" type="button" id="cksnContactSubmit">提交合作需求</button>
+          <button class="cksn-btn cksn-btn-ghost" type="button" id="cksnCopyLink" style="background:rgba(255,255,255,.9);">复制页面链接</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ========== 页脚 ========== -->
+<footer class="cksn-footer">
+  <div class="cksn-container">
+    <div class="cksn-footer-grid">
+      <div>
+        <div class="cksn-footer-logo">
+          <span class="cksn-logo-mark" style="width:36px;height:36px;">
+            <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="10" fill="none" stroke="#f2c14e" stroke-width="2.4"/><path d="M13 10.5l9 5.5-9 5.5z" fill="#f2c14e"/></svg>
+          </span>
+          <b>捷克街头钞能力</b>
+        </div>
+        <p>深耕城市街头影像与在地文化的原创视频品牌，致力于为企业与创作者搭建高品质、正版授权的内容生态。官方网站持续运营，每日更新精品内容。</p>
+        <p>品牌故事 · 企业动态 · 官方发布 · 用户至上</p>
+      </div>
+      <div>
+        <h4>内容频道</h4>
+        <ul class="cksn-footer-links">
+          <li><a href="#cksn-focus">焦点影像</a></li>
+          <li><a href="#cksn-videos">街头访谈</a></li>
+          <li><a href="#cksn-topics">专题企划</a></li>
+          <li><a href="#cksn-wall">社区影像墙</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于品牌</h4>
+        <ul class="cksn-footer-links">
+          <li><a href="#cksn-about">品牌定位</a></li>
+          <li><a href="#cksn-creators">创作者矩阵</a></li>
+          <li><a href="#cksn-news">企业动态</a></li>
+          <li><a href="#cksn-faq">帮助中心</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>参与社区</h4>
+        <ul class="cksn-footer-links">
+          <li><a href="#cksn-contact">投稿入口</a></li>
+          <li><a href="#cksn-contact">合作咨询</a></li>
+          <li><a href="#cksn-reviews">社区声音</a></li>
+          <li><a href="#cksn-hero">返回首页</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="cksn-footer-bottom">
+      <span>© 2026 捷克街头钞能力 官方网站 · 版权所有 · 持续运营中</span>
+      <span>企业文化备案号：CKSV-2026-1109 · 内容合规审核通过</span>
+    </div>
+  </div>
+</footer>
+
+<button class="cksn-top-btn" type="button" id="cksnTopBtn" aria-label="回到顶部">↑</button>
+<div class="cksn-toast" id="cksnToast"></div>
+
+<!-- 通用弹窗 -->
+<div class="cksn-modal-mask" id="cksnModalMask">
+  <div class="cksn-modal" id="cksnModal" role="dialog" aria-modal="true" aria-labelledby="cksnModalTitle">
+    <h3 id="cksnModalTitle">弹窗标题</h3>
+    <div id="cksnModalBody"></div>
+    <div class="cksn-modal-actions">
+      <button class="cksn-btn cksn-btn-ghost" type="button" id="cksnModalClose">关闭</button>
+      <button class="cksn-btn cksn-btn-primary" type="button" id="cksnModalOk">确定</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- 工具 ---------- */
+  var toastEl = document.getElementById('cksnToast');
+  var toastTimer = null;
+  function showToast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('cksn-show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('cksn-show'); }, 2200);
+  }
+
+  /* ---------- 移动端导航 ---------- */
+  var burger = document.getElementById('cksnBurger');
+  var nav = document.getElementById('cksnNav');
+  burger.addEventListener('click', function(){
+    var open = nav.classList.toggle('cksn-open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  nav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){
+      nav.classList.remove('cksn-open');
+      burger.setAttribute('aria-expanded','false');
+    }
+  });
+
+  /* ---------- 搜索反馈 ---------- */
+  var searchBox = document.getElementById('cksnSearchBox');
+  var searchInput = document.getElementById('cksnSearchInput');
+  var searchBtn = document.getElementById('cksnSearchBtn');
+  var searchHint = document.getElementById('cksnSearchHint');
+  var searchData = [
+    {t:'老城广场的硬币经济学', d:'街采正片 · 焦点影像'},
+    {t:'查理大桥上的第七种琴声', d:'人物访谈 · 阿列克谢'},
+    {t:'布尔诺中央市场清晨', d:'城市探索 · 城市拾光'},
+    {t:'手作木偶的最后一针', d:'在地文化 · 手艺地图'},
+    {t:'跟拍团队的一天', d:'创作幕后 · 影像工坊'},
+    {t:'城市交换计划', d:'专题企划 · 更新中'},
+    {t:'创作者扶持计划第二季', d:'企业动态 · 官方发布'}
+  ];
+  function runSearch(){
+    var kw = searchInput.value.trim();
+    if(!kw){
+      searchHint.innerHTML = '试试输入「广场」「市集」「手作」等关键词，快速定位内容。';
+      searchHint.classList.add('cksn-show');
+      return;
+    }
+    var hits = searchData.filter(function(item){
+      return item.t.indexOf(kw) > -1 || item.d.indexOf(kw) > -1;
+    });
+    if(hits.length){
+      searchHint.innerHTML = '找到 <strong>' + hits.length + '</strong> 条相关内容：<br>' +
+        hits.slice(0,4).map(function(h){ return '· ' + h.t + '（' + h.d + '）'; }).join('<br>');
+    }else{
+      searchHint.innerHTML = '暂未直接匹配「<strong>' + kw.replace(/[<>&]/g,'') + '</strong>」，可前往内容频道浏览全部影像。';
+    }
+    searchHint.classList.add('cksn-show');
+  }
+  searchBtn.addEventListener('click', runSearch);
+  searchInput.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){ e.preventDefault(); runSearch(); }
+  });
+  searchInput.addEventListener('input', function(){
+    if(!searchInput.value.trim()) searchHint.classList.remove('cksn-show');
+  });
+  document.addEventListener('click', function(e){
+    if(!searchBox.contains(e.target)) searchHint.classList.remove('cksn-show');
+  });
+
+  /* ---------- 标签筛选 ---------- */
+  var filterBar = document.getElementById('cksnFilterBar');
+  var videoCards = Array.prototype.slice.call(document.querySelectorAll('#cksnVideoGrid .cksn-video-card'));
+  filterBar.addEventListener('click', function(e){
+    var btn = e.target.closest('.cksn-filter-chip');
+    if(!btn) return;
+    Array.prototype.forEach.call(filterBar.children, function(c){ c.classList.remove('cksn-active'); });
+    btn.classList.add('cksn-active');
+    var f = btn.getAttribute('data-filter');
+    var visible = 0;
+    videoCards.forEach(function(card){
+      var ok = (f === 'all') || (card.getAttribute('data-cat') === f);
+      card.style.display = ok ? '' : 'none';
+      if(ok) visible++;
+    });
+    showToast(f === 'all' ? '已展示全部 ' + visible + ' 条内容' : '已筛选「' + f + '」分类，共 ' + visible + ' 条');
+  });
+
+  /* ---------- 点赞 / 收藏 ---------- */
+  document.addEventListener('click', function(e){
+    var likeBtn = e.target.closest('.cksn-like-btn');
+    if(likeBtn){
+      var base = parseInt(likeBtn.getAttribute('data-count'), 10) || 0;
+      var on = likeBtn.classList.toggle('cksn-like-on');
+      var num = on ? base + 1 : base;
+      likeBtn.textContent = '♥ ' + num;
+      showToast(on ? '已点赞，感谢支持' : '已取消点赞');
+      return;
+    }
+    var favBtn = e.target.closest('.cksn-fav-btn');
+    if(favBtn){
+      var fOn = favBtn.classList.toggle('cksn-fav-on');
+      favBtn.textContent = fOn ? '★ 已收藏' : '☆ 收藏';
+      showToast(fOn ? '已加入收藏夹' : '已取消收藏');
+    }
+  });
+
+  /* ---------- 弹窗通用 ---------- */
+  var mask = document.getElementById('cksnModalMask');
+  var modalTitle = document.getElementById('cksnModalTitle');
+  var modalBody = document.getElementById('cksnModalBody');
+  var modalOk = document.getElementById('cksnModalOk');
+  var modalClose = document.getElementById('cksnModalClose');
+
+  function openModal(title, html, okText){
+    modalTitle.textContent = title;
+    modalBody.innerHTML = html;
+    modalOk.textContent = okText || '确定';
+    mask.classList.add('cksn-show');
+  }
+  function closeModal(){ mask.classList.remove('cksn-show'); }
+  modalClose.addEventListener('click', closeModal);
+  mask.addEventListener('click', function(e){ if(e.target === mask) closeModal(); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeModal(); });
+
+  /* 投稿入口 */
+  function openSubmitModal(){
+    openModal('投稿入口', '<p>填写作品基本信息，编辑部将在五个工作日内联系你。首次投稿建议先阅读创作指南。</p>' +
+      '<div class="cksn-modal-field"><label>作品标题</label><input type="text" placeholder="例如：清晨五点的中央市场"></div>' +
+      '<div class="cksn-modal-field"><label>联系方式</label><input type="text" placeholder="邮箱或常用社交账号"></div>' +
+      '<div class="cksn-modal-field"><label>作品简介</label><textarea rows="3" placeholder="简述拍摄地点、内容与创作思路"></textarea></div>',
+      '提交投稿');
+  }
+  document.getElementById('cksnSubmitTop').addEventListener('click', openSubmitModal);
+  document.getElementById('cksnCreatorApply').addEventListener('click', openSubmitModal);
+  document.getElementById('cksnWallUpload').addEventListener('click', function(){
+    openModal('上传作品', '<p>请确保作品为原创或已获正版授权，上传后需经过内容合规审核。</p>' +
+      '<div class="cksn-modal-field"><label>作品名称</label><input type="text" placeholder="为你的街头瞬间起个名字"></div>' +
+      '<div class="cksn-modal-field"><label>拍摄地点</label><input type="text" placeholder="例如：布拉格老城广场"></div>',
+      '开始上传');
+  });
+  document.getElementById('cksnHeroJoin').addEventListener('click', function(){
+    openModal('成为创作者', '<p>加入社区后可获得选题指导、剪辑思路支持与官方发布资源。我们期待真实、有耐心的街头记录者。</p>' +
+      '<div class="cksn-modal-field"><label>昵称</label><input type="text" placeholder="你在社区的展示名称"></div>' +
+      '<div class="cksn-modal-field"><label>擅长领域</label><input type="text" placeholder="例如：街头访谈 / 城市声音"></div>',
+      '提交申请');
+  });
+  document.getElementById('cksnCreatorApply').addEventListener('click', openSubmitModal);
+  document.getElementById('cksnContactSubmit').addEventListener('click', function(){
+    openModal('提交合作需求', '<p>企业合作、机构联名与媒体采访均可通过此入口提交，我们会尽快与你联系。</p>' +
+      '<div class="cksn-modal-field"><label>机构名称</label><input type="text" placeholder="公司或机构名称"></div>' +
+      '<div class="cksn-modal-field"><label>合作方向</label><textarea rows="2" placeholder="例如：城市影像共建、老手艺记录计划"></textarea></div>',
+      '提交需求');
+  });
+  modalOk.addEventListener('click', function(){
+    closeModal();
+    showToast('信息已记录，我们会尽快与你联系');
+  });
+
+  /* 作者档案弹窗 */
+  var creatorData = {
+    '阿列克谢': '常驻查理大桥的街头音乐记录者，已发布86部作品，专注记录表演者的曲目选择与日常坚持，作品累计播放超120万次。',
+    '城市拾光': '建筑学背景的城市空间观察者，擅长固定镜头与长时段记录，作品覆盖布尔诺、布拉格与克鲁姆洛夫三座城市。',
+    '手艺地图': '走访仍在营业的老手艺工坊，记录工具、工序与人之间的关系，内容以克制的叙事与细腻的声音采集见长。',
+    '影像工坊': '社区里的实用技巧派，分享街头拍摄的设备选择、踩点路线与剪辑思路，是新人创作者最常参考的账号之一。'
+  };
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('.cksn-creator-info');
+    if(!btn) return;
+    var name = btn.getAttribute('data-name');
+    openModal(name + ' · 创作者档案', '<p>' + (creatorData[name] || '社区创作者，持续输出街头影像内容。') + '</p>',
+      '关注创作者');
+  });
+
+  /* 评论弹窗 */
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('.cksn-comment-btn');
+    if(!btn) return;
+    var card = btn.closest('.cksn-video-card');
+    var title = card ? card.querySelector('h3').textContent : '当前内容';
+    openModal('评论 · ' + title,
+      '<p style="font-size:13.5px;color:#3d5560;">已有 36 条社区讨论，请友善表达你的观点。</p>' +
+      '<div class="cksn-modal-field"><label>写下你的评论</label><textarea rows="3" placeholder="分享你看完这条影像的感受"></textarea></div>',
+      '发布评论');
+  });
+
+  /* 分享弹窗 + 复制链接 */
+  function copyText(text, okMsg){
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){ showToast(okMsg); }, function(){ showToast(okMsg); });
+    }else{
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try{ document.execCommand('copy'); }catch(err){}
+      document.body.removeChild(ta);
+      showToast(okMsg);
+    }
+  }
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('.cksn-share-btn');
+    if(!btn) return;
+    var card = btn.closest('.cksn-video-card');
+    var title = card ? card.querySelector('h3').textContent : '捷克街头钞能力';
+    openModal('分享 · ' + title,
+      '<p>把这条街头影像分享给同样关心城市的朋友。</p>' +
+      '<div class="cksn-share-row">' +
+      '<button type="button" data-share="微信">微信</button>' +
+      '<button type="button" data-share="微博">微博</button>' +
+      '<button type="button" data-share="QQ">QQ</button>' +
+      '<button type="button" data-share="复制链接">复制链接</button>' +
+      '</div>', '完成');
+  });
+  modalBody.addEventListener('click', function(e){
+    var b = e.target.closest('[data-share]');
+    if(!b) return;
+    var way = b.getAttribute('data-share');
+    if(way === '复制链接'){
+      copyText('捷克街头钞能力 · 街头影像内容', '链接已复制到剪贴板');
+    }else{
+      showToast('已生成「' + way + '」分享提示');
+    }
+  });
+  document.getElementById('cksnCopyLink').addEventListener('click', function(){
+    copyText('捷克街头钞能力 · 官方网站', '页面链接已复制');
+  });
+
+  /* ---------- 回到顶部 ---------- */
+  var topBtn = document.getElementById('cksnTopBtn');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 520){ topBtn.classList.add('cksn-show'); }
+    else{ topBtn.classList.remove('cksn-show'); }
+  }, {passive:true});
+  topBtn.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  /* ---------- 标签云点击反馈 ---------- */
+  document.querySelectorAll('.cksn-tag-cloud span').forEach(function(tag){
+    tag.addEventListener('click', function(){
+      showToast('已加入筛选偏好：' + tag.textContent);
+    });
+  });
+
+})();
+</script>
+</body>
+                                                                                                                                                                                                                                                                                                                                                                                                                                 </html>
